@@ -1,0 +1,1504 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    kscprod-bio2 (AVX2, FMA3, 471 GB RAM)
+Command: /iqtree-2.0.6-Linux/bin/iqtree2 -s /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip -nt 68 -m GTR+F+R3 -B 4000 -alrt 2000
+Seed:    945081 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun  7 23:07:19 2021
+Kernel:  AVX+FMA - 68 threads (72 CPU cores detected)
+
+Reading alignment file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 1368 sequences with 119776 columns, 61346 distinct patterns
+85419 parsimony-informative, 34352 singleton sites, 5 constant sites
+          Gap/Ambiguity  Composition  p-value
+   1  NMI9029     0.00%    passed    100.00%
+   2  NMI9039     0.00%    passed     95.51%
+   3  NMI9043     0.00%    passed    100.00%
+   4  NMI914      0.00%    passed    100.00%
+   5  NMI915      0.00%    passed     99.99%
+   6  NMI9114     0.00%    passed     99.72%
+   7  NMI9115     0.00%    passed    100.00%
+   8  NMI9124     0.00%    passed     99.63%
+   9  NMI9140     0.00%    passed    100.00%
+  10  NMI9143     0.00%    passed    100.00%
+  11  NMI9149     0.00%    passed     99.95%
+  12  NMI9160     0.00%    passed     99.65%
+  13  NMI924      0.00%    passed     99.97%
+  14  NMI927      0.00%    passed    100.00%
+  15  NMI9217     0.00%    passed     96.95%
+  16  NMI9218     0.00%    passed     99.85%
+  17  NMI9241     0.00%    passed     99.13%
+  18  NMI9246     0.00%    passed     99.94%
+  19  NMI9253     0.00%    passed     99.43%
+  20  NMI9254     0.00%    passed     99.95%
+  21  NMI9256     0.00%    passed     99.49%
+  22  NMI9267     0.00%    passed     99.44%
+  23  NMI9276     0.00%    passed     99.29%
+  24  NMI9281     0.00%    passed     99.37%
+  25  NMI9285     0.00%    passed     99.27%
+  26  NMI9287     0.00%    passed     99.93%
+  27  NMI9296     0.00%    passed     99.24%
+  28  NMI9299     0.00%    passed     99.27%
+  29  NMI92100    0.00%    passed     99.47%
+  30  NMI92102    0.00%    passed     99.51%
+  31  NMI92111    0.00%    passed     99.41%
+  32  NMI92143    0.00%    passed     99.30%
+  33  NMI92145    0.00%    passed     99.69%
+  34  NMI92152    0.00%    passed     99.14%
+  35  NMI9314     0.00%    passed     99.63%
+  36  NMI9323     0.00%    passed     99.21%
+  37  NMI9348     0.00%    passed     99.24%
+  38  NMI9354     0.00%    passed    100.00%
+  39  NMI9358     0.00%    passed     99.88%
+  40  NMI9361     0.00%    passed     99.87%
+  41  NMI9363     0.00%    passed    100.00%
+  42  NMI9373     0.00%    passed     96.08%
+  43  NMI9374     0.00%    passed     99.92%
+  44  NMI9385     0.00%    passed     97.95%
+  45  NMI93124    0.00%    passed     97.71%
+  46  NMI93131    0.00%    passed     99.82%
+  47  NMI93133    0.00%    passed     99.86%
+  48  NMI93134    0.00%    passed     99.84%
+  49  NMI93143    0.00%    passed     99.81%
+  50  NMI93144    0.00%    passed     99.40%
+  51  NMI93146    0.00%    passed     99.81%
+  52  NMI93147    0.00%    passed     97.59%
+  53  NMI93154    0.00%    passed     99.95%
+  54  NMI93157    0.00%    passed     99.67%
+  55  NMI93167    0.00%    passed     99.70%
+  56  NMI93169    0.00%    passed     99.67%
+  57  NMI93170    0.00%    passed     99.93%
+  58  NMI93180    0.00%    passed     99.81%
+  59  NMI93181    0.00%    passed     99.79%
+  60  NMI93184    0.00%    passed     99.66%
+  61  NMI945      0.00%    passed     99.65%
+  62  NMI9437     0.00%    passed     98.81%
+  63  NMI9446     0.00%    passed     99.95%
+  64  NMI9460     0.00%    passed     99.87%
+  65  NMI9419     0.00%    passed     99.81%
+  66  NMI9433     0.00%    passed     99.62%
+  67  NMI9454     0.00%    passed     99.92%
+  68  NMI94176    0.00%    passed     99.72%
+  69  NMI94212    0.00%    passed     98.81%
+  70  NMI94218    0.00%    passed     96.56%
+  71  NMI9474     0.00%    passed     99.56%
+  72  NMI94225    0.00%    passed     99.94%
+  73  NMI9478     0.00%    passed     99.88%
+  74  NMI9479     0.00%    passed     99.72%
+  75  NMI9482     0.00%    passed     99.60%
+  76  NMI9484     0.00%    passed     99.64%
+  77  NMI94245    0.00%    passed     99.78%
+  78  NMI9413     0.00%    passed     96.49%
+  79  NMI9457     0.00%    passed     99.63%
+  80  NMI94118    0.00%    passed     99.96%
+  81  NMI9456     0.00%    passed     99.33%
+  82  NMI94120    0.00%    passed     99.84%
+  83  NMI94121    0.00%    passed     99.81%
+  84  NMI94129    0.00%    passed     99.99%
+  85  NMI94130    0.00%    passed     99.94%
+  86  NMI9442     0.00%    passed     99.55%
+  87  NMI94160    0.00%    passed     99.76%
+  88  NMI94163    0.00%    passed     99.93%
+  89  NMI9463     0.00%    passed     99.98%
+  90  NMI9483     0.00%    passed     98.73%
+  91  NMI94168    0.00%    passed     96.18%
+  92  NMI94100    0.00%    passed     99.67%
+  93  NMI94149    0.00%    passed     99.76%
+  94  NMI94198    0.00%    passed     99.85%
+  95  NMI94234    0.00%    passed     98.45%
+  96  NMI94183    0.00%    passed     99.85%
+  97  NMI94185    0.00%    passed     98.03%
+  98  NMI9498     0.00%    passed    100.00%
+  99  NMI94229    0.00%    passed     99.86%
+ 100  NMI94199    0.00%    passed     98.36%
+ 101  NMI943      0.00%    passed     99.91%
+ 102  NMI94208    0.00%    passed     98.66%
+ 103  NMI9426     0.00%    passed     99.74%
+ 104  NMI94101    0.00%    passed     99.84%
+ 105  NMI94231    0.00%    passed     99.87%
+ 106  NMI94233    0.00%    passed     99.78%
+ 107  NMI94240    0.00%    passed     99.88%
+ 108  NMI9510     0.00%    passed     99.94%
+ 109  NMI9527     0.00%    passed     99.91%
+ 110  NMI9545     0.00%    passed     99.77%
+ 111  NMI9546     0.00%    passed     99.82%
+ 112  NMI9549     0.00%    passed     99.99%
+ 113  NMI9550     0.00%    passed     99.92%
+ 114  NMI9551     0.00%    passed     99.67%
+ 115  NMI9554     0.00%    passed     99.84%
+ 116  NMI9555     0.00%    passed     97.75%
+ 117  NMI9565     0.00%    passed     99.01%
+ 118  NMI9567     0.00%    passed     99.74%
+ 119  NMI9569     0.00%    passed     98.35%
+ 120  NMI9571     0.00%    passed     99.83%
+ 121  NMI9572     0.00%    passed     99.90%
+ 122  NMI9574     0.00%    passed     97.94%
+ 123  NMI9580     0.00%    passed     99.11%
+ 124  NMI95174    0.00%    passed     95.47%
+ 125  NMI9597     0.00%    passed     99.77%
+ 126  NMI9599     0.00%    passed     99.91%
+ 127  NMI95105    0.00%    passed     99.60%
+ 128  NMI95111    0.00%    passed     99.83%
+ 129  NMI95125    0.00%    passed    100.00%
+ 130  NMI95132    0.00%    passed     98.58%
+ 131  NMI95135    0.00%    passed     99.76%
+ 132  NMI95136    0.00%    passed     99.99%
+ 133  NMI95140    0.00%    passed     95.38%
+ 134  NMI95141    0.00%    passed     99.92%
+ 135  NMI95143    0.00%    passed     99.89%
+ 136  NMI95153    0.00%    passed     98.37%
+ 137  NMI95154    0.00%    passed     99.77%
+ 138  NMI95155    0.00%    passed     99.82%
+ 139  NMI95157    0.00%    passed     99.77%
+ 140  NMI95159    0.00%    passed     65.68%
+ 141  NMI95176    0.00%    passed     99.90%
+ 142  NMI95177    0.00%    passed     99.76%
+ 143  NMI95178    0.00%    passed     99.83%
+ 144  NMI95179    0.00%    passed     99.63%
+ 145  NMI95181    0.00%    passed     99.99%
+ 146  NMI95182    0.00%    passed     98.19%
+ 147  NMI95183    0.00%    passed     99.76%
+ 148  NMI95196    0.00%    passed     99.44%
+ 149  NMI95187    0.00%    passed     99.73%
+ 150  NMI95192    0.00%    passed     99.78%
+ 151  NMI95206    0.00%    passed     99.95%
+ 152  NMI95207    0.00%    passed     99.71%
+ 153  NMI95208    0.00%    passed     97.98%
+ 154  NMI95211    0.00%    passed     99.80%
+ 155  NMI95213    0.00%    passed     99.74%
+ 156  NMI95216    0.00%    passed     99.71%
+ 157  NMI95217    0.00%    passed     99.97%
+ 158  NMI95218    0.00%    passed     98.52%
+ 159  NMI95227    0.00%    passed     99.92%
+ 160  NMI95236    0.00%    passed    100.00%
+ 161  NMI95242    0.00%    passed     99.95%
+ 162  NMI95246    0.00%    passed     99.89%
+ 163  NMI95258    0.00%    passed     99.80%
+ 164  NMI95283    0.00%    passed     90.29%
+ 165  NMI95284    0.00%    passed     98.96%
+ 166  NMI952      0.00%    passed     98.76%
+ 167  NMI95297    0.00%    passed    100.00%
+ 168  NMI95298    0.00%    passed     98.05%
+ 169  NMI95299    0.00%    passed     98.78%
+ 170  NMI95305    0.00%    passed     98.75%
+ 171  NMI966      0.00%    passed     99.84%
+ 172  NMI969      0.00%    passed     99.55%
+ 173  NMI9610     0.00%    passed     99.77%
+ 174  NMI9611     0.00%    passed     99.79%
+ 175  NMI9615     0.00%    passed     89.64%
+ 176  NMI9628     0.00%    passed     99.37%
+ 177  NMI9629     0.00%    passed    100.00%
+ 178  NMI9624     0.00%    passed     99.90%
+ 179  NMI9626     0.00%    passed     97.71%
+ 180  NMI9630     0.00%    passed     99.98%
+ 181  NMI9632     0.00%    passed     99.73%
+ 182  NMI9635     0.00%    passed     99.65%
+ 183  NMI9637     0.00%    passed    100.00%
+ 184  NMI9643     0.00%    passed    100.00%
+ 185  NMI9651     0.00%    passed     99.73%
+ 186  NMI9652     0.00%    passed     99.67%
+ 187  NMI9654     0.00%    passed     99.69%
+ 188  NMI9657     0.00%    passed    100.00%
+ 189  NMI9658     0.00%    passed     98.75%
+ 190  NMI9673     0.00%    passed     98.20%
+ 191  NMI9671     0.00%    passed     99.83%
+ 192  NMI9672     0.00%    passed     99.64%
+ 193  NMI9674     0.00%    passed     99.96%
+ 194  NMI9684     0.00%    passed     98.52%
+ 195  NMI9689     0.00%    passed     99.81%
+ 196  NMI9691     0.00%    passed     98.99%
+ 197  NMI9692     0.00%    passed     99.53%
+ 198  NMI9697     0.00%    passed     98.52%
+ 199  NMI9698     0.00%    passed     88.32%
+ 200  NMI96103    0.00%    passed     95.49%
+ 201  NMI96119    0.00%    passed     94.08%
+ 202  NMI96120    0.00%    passed     95.78%
+ 203  NMI96125    0.00%    passed     98.92%
+ 204  NMI96122    0.00%    passed     99.97%
+ 205  NMI96123    0.00%    passed     99.77%
+ 206  NMI96126    0.00%    passed     99.63%
+ 207  NMI96128    0.00%    passed     99.72%
+ 208  NMI96132    0.00%    passed     99.15%
+ 209  NMI96133    0.00%    passed     99.82%
+ 210  NMI96141    0.00%    passed     99.99%
+ 211  NMI96144    0.00%    passed     99.96%
+ 212  NMI96145    0.00%    passed     99.63%
+ 213  NMI96157    0.00%    passed     99.63%
+ 214  NMI96167    0.00%    passed     97.19%
+ 215  NMI96173    0.00%    passed     99.74%
+ 216  NMI96174    0.00%    passed     99.73%
+ 217  NMI96175    0.00%    passed     99.83%
+ 218  NMI96178    0.00%    passed     99.75%
+ 219  NMI96179    0.00%    passed     99.41%
+ 220  NMI96188    0.00%    passed     99.95%
+ 221  NMI96189    0.00%    passed     99.79%
+ 222  NMI96197    0.00%    passed     99.44%
+ 223  NMI96198    0.00%    passed     99.26%
+ 224  NMI96200    0.00%    passed     98.12%
+ 225  NMI96201    0.00%    passed     99.89%
+ 226  NMI96202    0.00%    passed     99.61%
+ 227  NMI96209    0.00%    passed     98.88%
+ 228  NMI96217    0.00%    passed     99.44%
+ 229  NMI96219    0.00%    passed     99.96%
+ 230  NMI96221    0.00%    passed     97.38%
+ 231  NMI96225    0.00%    passed    100.00%
+ 232  NMI96226    0.00%    passed     99.06%
+ 233  NMI96230    0.00%    passed     99.19%
+ 234  NMI96231    0.00%    passed     99.91%
+ 235  NMI96242    0.00%    passed     99.72%
+ 236  NMI96229    0.00%    passed     99.77%
+ 237  NMI96233    0.00%    passed     99.99%
+ 238  NMI96243    0.00%    passed     99.98%
+ 239  NMI96244    0.00%    passed     99.92%
+ 240  NMI96245    0.00%    passed     99.94%
+ 241  NMI96246    0.00%    passed     98.96%
+ 242  NMI96247    0.00%    passed     99.64%
+ 243  NMI96249    0.00%    passed     99.50%
+ 244  NMI96250    0.00%    passed     99.99%
+ 245  NMI96254    0.00%    passed     99.28%
+ 246  NMI96256    0.00%    passed     96.83%
+ 247  NMI96257    0.00%    passed     99.94%
+ 248  NMI96263    0.00%    passed     90.07%
+ 249  NMI96265    0.00%    passed     99.57%
+ 250  NMI96268    0.00%    passed     95.71%
+ 251  NMI96279    0.00%    passed     99.22%
+ 252  NMI96276    0.00%    passed     99.83%
+ 253  NMI96277    0.00%    passed     97.45%
+ 254  NMI96286    0.00%    passed     99.96%
+ 255  NMI96288    0.00%    passed     99.85%
+ 256  NMI96289    0.00%    passed     99.95%
+ 257  NMI96291    0.00%    passed     99.80%
+ 258  NMI96297    0.00%    passed     99.97%
+ 259  NMI96299    0.00%    passed     99.44%
+ 260  NMI96300    0.00%    passed     85.06%
+ 261  NMI96304    0.00%    passed     99.69%
+ 262  NMI96306    0.00%    passed     97.86%
+ 263  NMI96309    0.00%    passed     99.89%
+ 264  NMI96310    0.00%    passed     95.79%
+ 265  NMI96311    0.00%    passed     98.26%
+ 266  NMI96316    0.00%    passed     99.95%
+ 267  NMI96319    0.00%    passed     97.49%
+ 268  NMI96320    0.00%    passed     98.33%
+ 269  NMI96323    0.00%    passed     99.67%
+ 270  NMI96325    0.00%    passed     97.99%
+ 271  NMI964      0.00%    passed     99.68%
+ 272  NMI965      0.00%    passed     99.55%
+ 273  NMI96326    0.00%    passed     98.41%
+ 274  NMI974      0.00%    passed     99.76%
+ 275  NMI975      0.00%    passed     99.39%
+ 276  NMI9712     0.00%    passed     99.86%
+ 277  NMI9713     0.00%    passed     99.69%
+ 278  NMI9718     0.00%    passed     94.38%
+ 279  NMI9728     0.00%    passed     99.94%
+ 280  NMI9734     0.00%    passed     98.27%
+ 281  NMI9737     0.00%    passed    100.00%
+ 282  NMI9742     0.00%    passed     99.78%
+ 283  NMI9746     0.00%    passed     98.71%
+ 284  NMI9754     0.00%    passed     99.97%
+ 285  NMI9757     0.00%    passed     98.24%
+ 286  NMI9762     0.00%    passed     98.68%
+ 287  NMI9769     0.00%    passed     99.73%
+ 288  NMI9770     0.00%    passed     99.94%
+ 289  NMI9773     0.00%    passed     99.94%
+ 290  NMI9774     0.00%    passed     99.66%
+ 291  NMI9775     0.00%    passed     99.38%
+ 292  NMI9779     0.00%    passed     99.48%
+ 293  NMI9781     0.00%    passed     98.86%
+ 294  NMI9792     0.00%    passed     98.41%
+ 295  NMI97184    0.00%    passed     99.87%
+ 296  NMI9793     0.00%    passed     99.99%
+ 297  NMI97100    0.00%    passed     99.69%
+ 298  NMI97111    0.00%    passed     99.77%
+ 299  NMI97116    0.00%    passed     99.03%
+ 300  NMI97135    0.00%    passed    100.00%
+ 301  NMI97143    0.00%    passed     99.87%
+ 302  NMI97138    0.00%    passed     99.89%
+ 303  NMI97139    0.00%    passed     99.63%
+ 304  NMI97140    0.00%    passed    100.00%
+ 305  NMI97147    0.00%    passed     99.95%
+ 306  NMI97149    0.00%    passed     99.82%
+ 307  NMI97151    0.00%    passed     99.65%
+ 308  NMI97153    0.00%    passed     99.20%
+ 309  NMI97158    0.00%    passed     99.84%
+ 310  NMI97159    0.00%    passed     82.26%
+ 311  NMI97160    0.00%    passed     99.45%
+ 312  NMI97162    0.00%    passed     99.22%
+ 313  NMI97163    0.00%    passed     97.58%
+ 314  NMI97179    0.00%    passed     99.59%
+ 315  NMI97180    0.00%    passed     99.90%
+ 316  NMI97187    0.00%    passed     99.27%
+ 317  NMI97191    0.00%    passed     98.07%
+ 318  NMI97195    0.00%    passed     99.71%
+ 319  NMI97198    0.00%    passed     98.80%
+ 320  NMI97210    0.00%    passed     92.04%
+ 321  NMI97211    0.00%    passed     99.02%
+ 322  NMI97213    0.00%    passed     99.67%
+ 323  NMI97218    0.00%    passed     96.69%
+ 324  NMI97220    0.00%    passed    100.00%
+ 325  NMI97221    0.00%    passed     99.96%
+ 326  NMI97223    0.00%    passed     98.57%
+ 327  NMI97225    0.00%    passed     99.93%
+ 328  NMI97235    0.00%    passed    100.00%
+ 329  NMI97239    0.00%    passed     99.88%
+ 330  NMI97241    0.00%    passed     99.64%
+ 331  NMI97242    0.00%    passed     99.39%
+ 332  NMI97243    0.00%    passed     99.95%
+ 333  NMI97244    0.00%    passed     98.38%
+ 334  NMI97245    0.00%    passed     99.92%
+ 335  NMI97251    0.00%    passed     99.70%
+ 336  NMI97253    0.00%    passed     99.71%
+ 337  NMI97255    0.00%    passed     99.98%
+ 338  NMI97259    0.00%    passed     99.99%
+ 339  NMI97268    0.00%    passed     99.87%
+ 340  NMI97269    0.00%    passed     99.84%
+ 341  NMI97270    0.00%    passed     99.97%
+ 342  NMI97272    0.00%    passed     99.57%
+ 343  NMI97279    0.00%    passed     94.36%
+ 344  NMI97284    0.00%    passed     99.55%
+ 345  NMI97293    0.00%    passed     99.81%
+ 346  NMI97295    0.00%    passed     99.59%
+ 347  NMI97309    0.00%    passed     98.46%
+ 348  NMI97311    0.00%    passed     99.94%
+ 349  NMI97314    0.00%    passed     99.82%
+ 350  NMI97320    0.00%    passed     99.76%
+ 351  NMI97321    0.00%    passed     99.89%
+ 352  NMI97324    0.00%    passed     97.42%
+ 353  NMI97323    0.00%    passed     99.52%
+ 354  NMI97330    0.00%    passed     99.98%
+ 355  NMI97331    0.00%    passed     99.69%
+ 356  NMI97333    0.00%    passed     99.93%
+ 357  NMI97335    0.00%    passed     99.13%
+ 358  NMI97339    0.00%    passed     99.78%
+ 359  NMI97340    0.00%    passed     99.93%
+ 360  NMI97347    0.00%    passed     90.56%
+ 361  NMI97351    0.00%    passed     98.90%
+ 362  NMI97353    0.00%    passed     98.30%
+ 363  NMI97358    0.00%    passed     99.80%
+ 364  NMI97362    0.00%    passed    100.00%
+ 365  NMI97366    0.00%    passed    100.00%
+ 366  NMI97368    0.00%    passed     99.70%
+ 367  NMI97370    0.00%    passed     99.78%
+ 368  NMI97374    0.00%    passed     99.93%
+ 369  NMI97377    0.00%    passed     98.38%
+ 370  NMI97378    0.00%    passed     99.02%
+ 371  NMI97380    0.00%    passed     99.77%
+ 372  NMI97382    0.00%    passed     99.69%
+ 373  NMI97388    0.00%    passed     99.99%
+ 374  NMI97396    0.00%    passed     99.71%
+ 375  NMI97402    0.00%    passed     99.94%
+ 376  NMI97403    0.00%    passed     99.75%
+ 377  NMI97404    0.00%    passed     99.99%
+ 378  NMI97405    0.00%    passed     99.99%
+ 379  NMI97408    0.00%    passed     99.99%
+ 380  NMI97409    0.00%    passed     99.65%
+ 381  NMI989      0.00%    passed     99.01%
+ 382  NMI9810     0.00%    passed     99.56%
+ 383  NMI9813     0.00%    passed     99.98%
+ 384  NMI9816     0.00%    passed     99.91%
+ 385  NMI9817     0.00%    passed     99.66%
+ 386  NMI9822     0.00%    passed     98.55%
+ 387  NMI9823     0.00%    passed     99.68%
+ 388  NMI9836     0.00%    passed     98.80%
+ 389  NMI9837     0.00%    passed     99.10%
+ 390  NMI9838     0.00%    passed     99.95%
+ 391  NMI9843     0.00%    passed     95.07%
+ 392  NMI9848     0.00%    passed     97.97%
+ 393  NMI9849     0.00%    passed     98.64%
+ 394  NMI9862     0.00%    passed     94.53%
+ 395  NMI9863     0.00%    passed     99.87%
+ 396  NMI9864     0.00%    passed     99.67%
+ 397  NMI9865     0.00%    passed     99.17%
+ 398  NMI9869     0.00%    passed     99.89%
+ 399  NMI9872     0.00%    passed     99.94%
+ 400  NMI9873     0.00%    passed    100.00%
+ 401  NMI9878     0.00%    passed     98.90%
+ 402  NMI9882     0.00%    passed     99.78%
+ 403  NMI9885     0.00%    passed     98.39%
+ 404  NMI9887     0.00%    passed     98.64%
+ 405  NMI9888     0.00%    passed     99.74%
+ 406  NMI9893     0.00%    passed     99.94%
+ 407  NMI9894     0.00%    passed     95.40%
+ 408  NMI9898     0.00%    passed     90.71%
+ 409  NMI9899     0.00%    passed     90.59%
+ 410  NMI98100    0.00%    passed    100.00%
+ 411  NMI98104    0.00%    passed     99.70%
+ 412  NMI98109    0.00%    passed     97.97%
+ 413  NMI98110    0.00%    passed     99.80%
+ 414  NMI98119    0.00%    passed     99.80%
+ 415  NMI98120    0.00%    passed     99.75%
+ 416  NMI98122    0.00%    passed     99.00%
+ 417  NMI98139    0.00%    passed     99.88%
+ 418  NMI98132    0.00%    passed     97.79%
+ 419  NMI98141    0.00%    passed     96.95%
+ 420  NMI98142    0.00%    passed     96.67%
+ 421  NMI98143    0.00%    passed     83.60%
+ 422  NMI98146    0.00%    passed     99.93%
+ 423  NMI98147    0.00%    passed     99.97%
+ 424  NMI98154    0.00%    passed    100.00%
+ 425  NMI98156    0.00%    passed     99.30%
+ 426  NMI98157    0.00%    passed     99.95%
+ 427  NMI98161    0.00%    passed     94.12%
+ 428  NMI98162    0.00%    passed     98.33%
+ 429  NMI98164    0.00%    passed     99.78%
+ 430  NMI98166    0.00%    passed     99.96%
+ 431  NMI98167    0.00%    passed     98.64%
+ 432  NMI98169    0.00%    passed     99.56%
+ 433  NMI98182    0.00%    passed     99.83%
+ 434  NMI98186    0.00%    passed     99.78%
+ 435  NMI98194    0.00%    passed     99.82%
+ 436  NMI98195    0.00%    passed     99.99%
+ 437  NMI98203    0.00%    passed     96.39%
+ 438  NMI98204    0.00%    passed     99.29%
+ 439  NMI98206    0.00%    passed     98.80%
+ 440  NMI98207    0.00%    passed     94.60%
+ 441  NMI98220    0.00%    passed     99.98%
+ 442  NMI98222    0.00%    passed     99.95%
+ 443  NMI98223    0.00%    passed     99.94%
+ 444  NMI98228    0.00%    passed     99.94%
+ 445  NMI98244    0.00%    passed     99.39%
+ 446  NMI98250    0.00%    passed     94.13%
+ 447  NMI98252    0.00%    passed     99.21%
+ 448  NMI98254    0.00%    passed    100.00%
+ 449  NMI98257    0.00%    passed     99.95%
+ 450  NMI98258    0.00%    passed     99.92%
+ 451  NMI98270    0.00%    passed     92.84%
+ 452  NMI98271    0.00%    passed     99.41%
+ 453  NMI98272    0.00%    passed     99.59%
+ 454  NMI98273    0.00%    passed     99.84%
+ 455  NMI98276    0.00%    passed     99.77%
+ 456  NMI98282    0.00%    passed     97.39%
+ 457  NMI98284    0.00%    passed     94.40%
+ 458  NMI98289    0.00%    passed    100.00%
+ 459  NMI98296    0.00%    passed     99.87%
+ 460  NMI98294    0.00%    passed     98.63%
+ 461  NMI98297    0.00%    passed     99.89%
+ 462  NMI98300    0.00%    passed     98.67%
+ 463  NMI98302    0.00%    passed     98.78%
+ 464  NMI98306    0.00%    passed     90.10%
+ 465  NMI994      0.00%    passed     99.80%
+ 466  NMI995      0.00%    passed     99.76%
+ 467  NMI997      0.00%    passed     99.82%
+ 468  NMI999      0.00%    passed     97.51%
+ 469  NMI9913     0.00%    passed     99.96%
+ 470  NMI9922     0.00%    passed     99.72%
+ 471  NMI9924     0.00%    passed     99.99%
+ 472  NMI9927     0.00%    passed     99.84%
+ 473  NMI9928     0.00%    passed     99.54%
+ 474  NMI9931     0.00%    passed     86.50%
+ 475  NMI9932     0.00%    passed     96.14%
+ 476  NMI9933     0.00%    passed     97.58%
+ 477  NMI9935     0.00%    passed     99.70%
+ 478  NMI9940     0.00%    passed     99.01%
+ 479  NMI9941     0.00%    passed     97.36%
+ 480  NMI9944     0.00%    passed     99.95%
+ 481  NMI9946     0.00%    passed     75.06%
+ 482  NMI9947     0.00%    passed     99.98%
+ 483  NMI9948     0.00%    passed     99.76%
+ 484  NMI9953     0.00%    passed     99.74%
+ 485  NMI9954     0.00%    passed     99.37%
+ 486  NMI9956     0.00%    passed     99.82%
+ 487  NMI9958     0.00%    passed     99.82%
+ 488  NMI9965     0.00%    passed     99.94%
+ 489  NMI9969     0.00%    passed     99.44%
+ 490  NMI9970     0.00%    passed     63.67%
+ 491  NMI9971     0.00%    passed     99.83%
+ 492  NMI9972     0.00%    passed     76.14%
+ 493  NMI9977     0.00%    passed     98.42%
+ 494  NMI9978     0.00%    passed     97.70%
+ 495  NMI9985     0.00%    passed     99.81%
+ 496  NMI9987     0.00%    passed     99.96%
+ 497  NMI9991     0.00%    passed     97.57%
+ 498  NMI9993     0.00%    passed     98.85%
+ 499  NMI99100    0.00%    passed     99.36%
+ 500  NMI99107    0.00%    passed     98.71%
+ 501  NMI99109    0.00%    passed     99.65%
+ 502  NMI99112    0.00%    passed     99.55%
+ 503  NMI99117    0.00%    passed     99.03%
+ 504  NMI99121    0.00%    passed     99.99%
+ 505  NMI99113    0.00%    passed     99.41%
+ 506  NMI99120    0.00%    passed     99.99%
+ 507  NMI99126    0.00%    passed     87.37%
+ 508  NMI99127    0.00%    passed     99.93%
+ 509  NMI99128    0.00%    passed     99.90%
+ 510  NMI99132    0.00%    passed     99.92%
+ 511  NMI99136    0.00%    passed     99.48%
+ 512  NMI99137    0.00%    passed     99.28%
+ 513  NMI99138    0.00%    passed     99.52%
+ 514  NMI99147    0.00%    passed     98.93%
+ 515  NMI99148    0.00%    passed     96.13%
+ 516  NMI99153    0.00%    passed     99.24%
+ 517  NMI99158    0.00%    passed     99.52%
+ 518  NMI99159    0.00%    passed     98.89%
+ 519  NMI99161    0.00%    passed     99.79%
+ 520  NMI99163    0.00%    passed     99.92%
+ 521  NMI99164    0.00%    passed     99.69%
+ 522  NMI99166    0.00%    passed     98.93%
+ 523  NMI99169    0.00%    passed     99.76%
+ 524  NMI99171    0.00%    passed     99.53%
+ 525  NMI99173    0.00%    passed     99.71%
+ 526  NMI99176    0.00%    passed     99.68%
+ 527  NMI99177    0.00%    passed     92.74%
+ 528  NMI99178    0.00%    passed     99.02%
+ 529  NMI99180    0.00%    passed     89.72%
+ 530  NMI99181    0.00%    passed     99.94%
+ 531  NMI99182    0.00%    passed     99.43%
+ 532  NMI99183    0.00%    passed    100.00%
+ 533  NMI99196    0.00%    passed     99.91%
+ 534  NMI99198    0.00%    passed     99.80%
+ 535  NMI99197    0.00%    passed     99.26%
+ 536  NMI99199    0.00%    passed     99.21%
+ 537  NMI99207    0.00%    passed     94.49%
+ 538  NMI99208    0.00%    passed     99.92%
+ 539  NMI99211    0.00%    passed     99.72%
+ 540  NMI99220    0.00%    passed     99.78%
+ 541  NMI99223    0.00%    passed     95.63%
+ 542  NMI99224    0.00%    passed     99.97%
+ 543  NMI99225    0.00%    passed     99.80%
+ 544  NMI99228    0.00%    passed     91.06%
+ 545  NMI99229    0.00%    passed     99.38%
+ 546  NMI99233    0.00%    passed     64.11%
+ 547  NMI99235    0.00%    passed     99.93%
+ 548  NMI99237    0.00%    passed     99.93%
+ 549  NMI99240    0.00%    passed     90.28%
+ 550  NMI99243    0.00%    passed     98.61%
+ 551  NMI99246    0.00%    passed     98.39%
+ 552  NMI99248    0.00%    passed     93.32%
+ 553  NMI99252    0.00%    passed     99.68%
+ 554  NMI99253    0.00%    passed     98.68%
+ 555  NMI99255    0.00%    passed     99.96%
+ 556  NMI99258    0.00%    passed     99.99%
+ 557  NMI99261    0.00%    passed     99.86%
+ 558  NMI99262    0.00%    passed     92.55%
+ 559  NMI99265    0.00%    passed     99.44%
+ 560  NMI99275    0.00%    passed     99.42%
+ 561  NMI99276    0.00%    passed     99.27%
+ 562  NMI99277    0.00%    passed     98.78%
+ 563  NMI99278    0.00%    passed     98.68%
+ 564  NMI99280    0.00%    passed     98.94%
+ 565  NMI99281    0.00%    passed     96.66%
+ 566  NMI99287    0.00%    passed     92.01%
+ 567  NMI99290    0.00%    passed     99.99%
+ 568  NMI99292    0.00%    passed     99.52%
+ 569  NMI99293    0.00%    passed     99.99%
+ 570  NMI99300    0.00%    passed     99.98%
+ 571  NMI99301    0.00%    passed     99.79%
+ 572  NMI99302    0.00%    passed     99.86%
+ 573  NMI99306    0.00%    passed     63.76%
+ 574  NMI007      0.00%    passed     99.08%
+ 575  NMI008      0.00%    passed     99.99%
+ 576  NMI009      0.00%    passed     99.82%
+ 577  NMI0011     0.00%    passed     99.42%
+ 578  NMI0012     0.00%    passed     98.63%
+ 579  NMI0014     0.00%    passed     99.23%
+ 580  NMI0016     0.00%    passed     96.28%
+ 581  NMI0023     0.00%    passed     99.92%
+ 582  NMI0024     0.00%    passed     98.93%
+ 583  NMI0028     0.00%    passed     99.86%
+ 584  NMI0033     0.00%    passed     99.92%
+ 585  NMI0034     0.00%    passed     99.87%
+ 586  NMI0035     0.00%    passed     77.70%
+ 587  NMI0037     0.00%    passed     99.94%
+ 588  NMI0039     0.00%    passed     99.96%
+ 589  NMI0040     0.00%    passed     99.65%
+ 590  NMI0043     0.00%    passed     89.44%
+ 591  NMI0046     0.00%    passed     91.45%
+ 592  NMI0048     0.00%    passed     99.31%
+ 593  NMI0049     0.00%    passed     99.62%
+ 594  NMI0050     0.00%    passed     99.93%
+ 595  NMI0051     0.00%    passed     99.42%
+ 596  NMI0053     0.00%    passed     99.38%
+ 597  NMI0059     0.00%    passed     92.93%
+ 598  NMI0061     0.00%    passed     99.55%
+ 599  NMI0065     0.00%    passed    100.00%
+ 600  NMI0074     0.00%    passed     99.95%
+ 601  NMI0078     0.00%    passed     98.74%
+ 602  NMI0079     0.00%    passed     98.75%
+ 603  NMI0080     0.00%    passed     99.70%
+ 604  NMI0081     0.00%    passed     99.93%
+ 605  NMI0085     0.00%    passed     98.73%
+ 606  NMI0091     0.00%    passed     99.33%
+ 607  NMI0092     0.00%    passed     98.00%
+ 608  NMI0093     0.00%    passed     99.93%
+ 609  NMI0086     0.00%    passed     99.79%
+ 610  NMI0088     0.00%    passed     99.41%
+ 611  NMI0096     0.00%    passed     97.62%
+ 612  NMI0099     0.00%    passed     99.98%
+ 613  NMI00103    0.00%    passed     99.26%
+ 614  NMI00105    0.00%    passed     99.90%
+ 615  NMI00106    0.00%    passed     99.99%
+ 616  NMI00107    0.00%    passed     97.63%
+ 617  NMI00108    0.00%    passed     99.27%
+ 618  NMI00113    0.00%    passed     99.57%
+ 619  NMI00116    0.00%    passed     99.29%
+ 620  NMI00118    0.00%    passed     99.78%
+ 621  NMI00120    0.00%    passed     99.81%
+ 622  NMI00127    0.00%    passed     99.10%
+ 623  NMI00129    0.00%    passed     99.59%
+ 624  NMI00119    0.00%    passed     99.75%
+ 625  NMI00124    0.00%    passed     99.99%
+ 626  NMI00125    0.00%    passed     99.98%
+ 627  NMI00131    0.00%    passed     99.44%
+ 628  NMI00139    0.00%    passed     99.92%
+ 629  NMI00140    0.00%    passed     99.97%
+ 630  NMI00141    0.00%    passed    100.00%
+ 631  NMI00144    0.00%    passed     98.92%
+ 632  NMI00145    0.00%    passed     98.39%
+ 633  NMI00146    0.00%    passed     99.97%
+ 634  NMI00148    0.00%    passed     99.73%
+ 635  NMI00157    0.00%    passed     99.99%
+ 636  NMI00159    0.00%    passed     94.98%
+ 637  NMI00158    0.00%    passed     99.96%
+ 638  NMI00160    0.00%    passed     99.77%
+ 639  NMI00161    0.00%    passed     99.92%
+ 640  NMI00162    0.00%    passed     99.99%
+ 641  NMI00163    0.00%    passed     99.99%
+ 642  NMI00164    0.00%    passed     99.05%
+ 643  NMI00167    0.00%    passed     97.44%
+ 644  NMI00170    0.00%    passed     98.70%
+ 645  NMI00171    0.00%    passed     98.70%
+ 646  NMI00175    0.00%    passed     99.65%
+ 647  NMI00180    0.00%    passed     99.11%
+ 648  NMI00181    0.00%    passed     99.83%
+ 649  NMI00182    0.00%    passed     99.89%
+ 650  NMI00185    0.00%    passed     99.46%
+ 651  NMI00176    0.00%    passed     98.78%
+ 652  NMI00177    0.00%    passed     99.85%
+ 653  NMI00183    0.00%    passed     99.76%
+ 654  NMI00189    0.00%    passed     99.80%
+ 655  NMI00192    0.00%    passed     99.76%
+ 656  NMI00194    0.00%    passed     99.93%
+ 657  NMI00196    0.00%    passed     99.92%
+ 658  NMI00203    0.00%    passed     99.93%
+ 659  NMI00205    0.00%    passed     99.80%
+ 660  NMI00206    0.00%    passed     99.95%
+ 661  NMI00207    0.00%    passed     98.96%
+ 662  NMI00211    0.00%    passed     98.35%
+ 663  NMI00212    0.00%    passed     99.72%
+ 664  NMI00216    0.00%    passed     96.65%
+ 665  NMI00217    0.00%    passed     98.18%
+ 666  NMI00219    0.00%    passed     91.68%
+ 667  NMI00223    0.00%    passed     99.84%
+ 668  NMI00225    0.00%    passed     99.88%
+ 669  NMI00229    0.00%    passed     98.95%
+ 670  NMI00231    0.00%    passed     99.99%
+ 671  NMI00232    0.00%    passed     99.93%
+ 672  NMI00234    0.00%    passed     99.68%
+ 673  NMI00236    0.00%    passed     99.42%
+ 674  NMI00240    0.00%    passed     99.98%
+ 675  NMI00241    0.00%    passed     99.98%
+ 676  NMI00242    0.00%    passed     80.61%
+ 677  NMI00249    0.00%    passed     99.26%
+ 678  NMI00250    0.00%    passed     99.98%
+ 679  NMI00252    0.00%    passed     99.69%
+ 680  NMI00255    0.00%    passed     98.11%
+ 681  NMI00256    0.00%    passed     99.25%
+ 682  NMI00257    0.00%    passed     99.77%
+ 683  NMI00259    0.00%    passed     99.24%
+ 684  NMI00260    0.00%    passed     99.88%
+ 685  NMI00261    0.00%    passed     97.94%
+ 686  NMI00262    0.00%    passed     99.91%
+ 687  NMI00265    0.00%    passed    100.00%
+ 688  NMI00266    0.00%    passed     99.63%
+ 689  NMI00267    0.00%    passed     99.70%
+ 690  NMI00269    0.00%    passed     99.94%
+ 691  NMI00270    0.00%    passed     99.86%
+ 692  NMI00271    0.00%    passed     99.89%
+ 693  NMI00272    0.00%    passed     93.33%
+ 694  NMI00273    0.00%    passed     99.92%
+ 695  NMI00275    0.00%    passed     99.99%
+ 696  NMI00277    0.00%    passed     99.73%
+ 697  NMI00278    0.00%    passed     99.01%
+ 698  NMI00279    0.00%    passed     99.69%
+ 699  NMI00286    0.00%    passed     99.93%
+ 700  NMI00287    0.00%    passed     98.14%
+ 701  NMI00289    0.00%    passed     99.49%
+ 702  NMI00290    0.00%    passed     99.66%
+ 703  NMI00292    0.00%    passed     99.98%
+ 704  NMI00293    0.00%    passed     99.94%
+ 705  NMI00294    0.00%    passed     99.94%
+ 706  NMI00296    0.00%    passed     98.33%
+ 707  NMI00297    0.00%    passed     99.92%
+ 708  NMI00298    0.00%    passed     99.62%
+ 709  NMI011      0.00%    passed     99.07%
+ 710  NMI015      0.00%    passed     93.48%
+ 711  NMI018      0.00%    passed     99.65%
+ 712  NMI019      0.00%    passed     99.68%
+ 713  NMI0110     0.00%    passed     99.59%
+ 714  NMI0112     0.00%    passed     99.99%
+ 715  NMI0115     0.00%    passed    100.00%
+ 716  NMI0119     0.00%    passed     99.79%
+ 717  NMI0122     0.00%    passed     99.95%
+ 718  NMI0123     0.00%    passed     99.75%
+ 719  NMI0127     0.00%    passed     99.92%
+ 720  NMI0131     0.00%    passed     99.16%
+ 721  NMI0132     0.00%    passed     99.75%
+ 722  NMI0133     0.00%    passed     99.96%
+ 723  NMI0134     0.00%    passed     90.97%
+ 724  NMI0137     0.00%    passed     87.47%
+ 725  NMI0139     0.00%    passed     99.94%
+ 726  NMI0140     0.00%    passed     99.98%
+ 727  NMI0141     0.00%    passed     99.78%
+ 728  NMI0142     0.00%    passed    100.00%
+ 729  NMI0147     0.00%    passed     98.46%
+ 730  NMI0149     0.00%    passed     99.00%
+ 731  NMI0151     0.00%    passed     99.18%
+ 732  NMI0152     0.00%    passed     90.72%
+ 733  NMI0153     0.00%    passed     99.95%
+ 734  NMI0157     0.00%    passed     99.25%
+ 735  NMI0158     0.00%    passed     99.90%
+ 736  NMI0161     0.00%    passed     76.86%
+ 737  NMI0163     0.00%    passed     99.69%
+ 738  NMI0165     0.00%    passed     98.50%
+ 739  NMI0167     0.00%    passed     99.95%
+ 740  NMI0168     0.00%    passed     99.29%
+ 741  NMI0175     0.00%    passed     99.15%
+ 742  NMI0176     0.00%    passed     98.74%
+ 743  NMI0180     0.00%    passed     99.14%
+ 744  NMI0182     0.00%    passed     98.91%
+ 745  NMI0184     0.00%    passed     99.69%
+ 746  NMI0186     0.00%    passed     97.25%
+ 747  NMI0188     0.00%    passed     99.12%
+ 748  NMI0189     0.00%    passed     96.83%
+ 749  NMI0190     0.00%    passed     98.84%
+ 750  NMI0191     0.00%    passed     99.02%
+ 751  NMI0195     0.00%    passed     99.35%
+ 752  NMI01100    0.00%    passed     97.49%
+ 753  NMI01102    0.00%    passed     99.24%
+ 754  NMI01104    0.00%    passed     99.88%
+ 755  NMI01106    0.00%    passed     99.62%
+ 756  NMI01110    0.00%    passed     99.56%
+ 757  NMI01112    0.00%    passed     99.42%
+ 758  NMI01115    0.00%    passed     99.88%
+ 759  NMI01117    0.00%    passed     99.85%
+ 760  NMI01118    0.00%    passed     75.77%
+ 761  NMI01120    0.00%    passed     99.80%
+ 762  NMI01122    0.00%    passed     99.47%
+ 763  NMI01123    0.00%    passed     99.32%
+ 764  NMI01125    0.00%    passed     99.22%
+ 765  NMI01129    0.00%    passed     95.80%
+ 766  NMI01130    0.00%    passed     99.96%
+ 767  NMI01135    0.00%    passed     99.85%
+ 768  NMI01136    0.00%    passed     99.16%
+ 769  NMI01141    0.00%    passed     84.90%
+ 770  NMI01153    0.00%    passed     99.95%
+ 771  NMI01143    0.00%    passed     99.07%
+ 772  NMI01145    0.00%    passed     97.53%
+ 773  NMI01146    0.00%    passed     98.28%
+ 774  NMI01152    0.00%    passed     99.99%
+ 775  NMI01155    0.00%    passed     98.62%
+ 776  NMI01156    0.00%    passed     98.62%
+ 777  NMI01160    0.00%    passed     99.80%
+ 778  NMI01164    0.00%    passed     99.86%
+ 779  NMI01171    0.00%    passed     96.04%
+ 780  NMI01173    0.00%    passed     96.19%
+ 781  NMI01180    0.00%    passed     99.26%
+ 782  NMI01181    0.00%    passed     99.90%
+ 783  NMI01182    0.00%    passed     99.14%
+ 784  NMI01183    0.00%    passed     97.88%
+ 785  NMI01184    0.00%    passed     99.42%
+ 786  NMI01185    0.00%    passed     99.98%
+ 787  NMI01189    0.00%    passed     99.89%
+ 788  NMI01198    0.00%    passed     99.98%
+ 789  NMI01195    0.00%    passed     98.19%
+ 790  NMI01196    0.00%    passed     98.75%
+ 791  NMI01199    0.00%    passed     99.10%
+ 792  NMI01200    0.00%    passed     99.96%
+ 793  NMI01202    0.00%    passed     99.23%
+ 794  NMI01206    0.00%    passed     97.95%
+ 795  NMI01207    0.00%    passed     97.26%
+ 796  NMI01209    0.00%    passed     99.28%
+ 797  NMI01210    0.00%    passed     99.36%
+ 798  NMI01216    0.00%    passed     99.98%
+ 799  NMI01217    0.00%    passed     99.36%
+ 800  NMI01219    0.00%    passed     99.97%
+ 801  NMI01220    0.00%    passed     99.99%
+ 802  NMI01221    0.00%    passed     99.33%
+ 803  NMI01224    0.00%    passed     99.15%
+ 804  NMI01225    0.00%    passed     95.66%
+ 805  NMI01226    0.00%    passed     99.90%
+ 806  NMI01227    0.00%    passed     99.21%
+ 807  NMI01229    0.00%    passed     99.71%
+ 808  NMI01233    0.00%    passed     99.80%
+ 809  NMI01238    0.00%    passed     99.99%
+ 810  NMI01241    0.00%    passed     99.90%
+ 811  NMI01247    0.00%    passed     96.21%
+ 812  NMI01248    0.00%    passed     99.97%
+ 813  NMI01249    0.00%    passed     99.90%
+ 814  NMI01250    0.00%    passed     99.99%
+ 815  NMI01251    0.00%    passed     99.98%
+ 816  NMI01252    0.00%    passed     99.64%
+ 817  NMI01253    0.00%    passed     99.98%
+ 818  NMI01254    0.00%    passed     99.98%
+ 819  NMI01256    0.00%    passed     99.95%
+ 820  NMI01258    0.00%    passed     99.84%
+ 821  NMI01259    0.00%    passed     99.94%
+ 822  NMI01260    0.00%    passed     99.79%
+ 823  NMI01264    0.00%    passed     99.75%
+ 824  NMI01265    0.00%    passed     72.81%
+ 825  NMI01267    0.00%    passed     99.87%
+ 826  NMI01268    0.00%    passed     98.63%
+ 827  NMI01269    0.00%    passed     99.89%
+ 828  NMI01274    0.00%    passed     99.68%
+ 829  NMI01283    0.00%    passed     99.42%
+ 830  NMI01289    0.00%    passed     83.24%
+ 831  NMI01290    0.00%    passed     99.43%
+ 832  NMI01294    0.00%    passed     99.81%
+ 833  NMI01298    0.00%    passed     96.56%
+ 834  NMI01299    0.00%    passed     97.01%
+ 835  NMI01305    0.00%    passed     99.62%
+ 836  NMI01306    0.00%    passed     98.99%
+ 837  NMI01309    0.00%    passed     96.02%
+ 838  NMI01318    0.00%    passed     95.97%
+ 839  NMI01322    0.00%    passed     99.81%
+ 840  NMI01326    0.00%    passed     99.98%
+ 841  NMI01327    0.00%    passed     99.22%
+ 842  NMI01328    0.00%    passed     99.88%
+ 843  NMI01330    0.00%    passed     99.95%
+ 844  NMI01331    0.00%    passed     99.14%
+ 845  NMI01332    0.00%    passed     98.84%
+ 846  NMI01333    0.00%    passed    100.00%
+ 847  NMI01334    0.00%    passed     99.50%
+ 848  NMI01335    0.00%    passed     94.87%
+ 849  NMI01337    0.00%    passed     99.28%
+ 850  NMI01339    0.00%    passed     99.45%
+ 851  NMI01340    0.00%    passed     99.90%
+ 852  NMI01346    0.00%    passed     99.57%
+ 853  NMI01348    0.00%    passed     99.94%
+ 854  NMI01349    0.00%    passed     98.10%
+ 855  NMI01350    0.00%    passed     99.82%
+ 856  NMI01351    0.00%    passed     99.29%
+ 857  NMI01352    0.00%    passed     99.05%
+ 858  NMI01354    0.00%    passed     99.19%
+ 859  NMI01359    0.00%    passed     99.55%
+ 860  NMI01360    0.00%    passed     98.04%
+ 861  NMI01369    0.00%    passed     99.95%
+ 862  NMI02278    0.00%    passed     95.56%
+ 863  NMI02258    0.00%    passed     97.91%
+ 864  NMI02256    0.00%    passed     98.62%
+ 865  NMI02251    0.00%    passed     99.15%
+ 866  NMI02245    0.00%    passed     99.62%
+ 867  NMI02239    0.00%    passed     98.88%
+ 868  NMI02238    0.00%    passed     98.11%
+ 869  NMI02236    0.00%    passed     99.04%
+ 870  NMI02234    0.00%    passed     99.11%
+ 871  NMI02227    0.00%    passed     99.88%
+ 872  NMI02226    0.00%    passed     99.35%
+ 873  NMI02223    0.00%    passed     98.76%
+ 874  NMI02221    0.00%    passed     98.75%
+ 875  NMI02219    0.00%    passed     97.14%
+ 876  NMI02213    0.00%    passed     99.29%
+ 877  NMI02210    0.00%    passed     91.02%
+ 878  NMI02206    0.00%    passed     97.63%
+ 879  NMI02205    0.00%    passed     97.43%
+ 880  NMI02204    0.00%    passed     99.80%
+ 881  NMI02202    0.00%    passed     99.99%
+ 882  NMI02194    0.00%    passed     99.99%
+ 883  NMI02192    0.00%    passed     99.91%
+ 884  NMI02191    0.00%    passed     96.24%
+ 885  NMI02189    0.00%    passed     99.16%
+ 886  NMI02184    0.00%    passed     83.98%
+ 887  NMI02183    0.00%    passed     99.82%
+ 888  NMI02182    0.00%    passed     99.42%
+ 889  NMI02179    0.00%    passed     99.96%
+ 890  NMI02177    0.00%    passed     99.32%
+ 891  NMI02174    0.00%    passed     90.22%
+ 892  NMI02173    0.00%    passed     99.80%
+ 893  NMI02171    0.00%    passed     99.87%
+ 894  NMI02170    0.00%    passed    100.00%
+ 895  NMI02169    0.00%    passed     99.39%
+ 896  NMI02161    0.00%    passed     90.62%
+ 897  NMI02157    0.00%    passed     99.68%
+ 898  NMI02156    0.00%    passed     99.94%
+ 899  NMI02153    0.00%    passed     99.38%
+ 900  NMI02148    0.00%    passed     99.44%
+ 901  NMI02141    0.00%    passed     99.88%
+ 902  NMI02140    0.00%    passed     97.76%
+ 903  NMI02138    0.00%    passed     98.85%
+ 904  NMI02137    0.00%    passed     99.99%
+ 905  NMI02135    0.00%    passed     99.47%
+ 906  NMI02133    0.00%    passed     99.95%
+ 907  NMI02130    0.00%    passed     99.24%
+ 908  NMI02127    0.00%    passed     99.44%
+ 909  NMI02124    0.00%    passed     95.32%
+ 910  NMI02120    0.00%    passed     97.91%
+ 911  NMI02119    0.00%    passed     99.17%
+ 912  NMI02118    0.00%    passed     99.98%
+ 913  NMI02116    0.00%    passed     95.71%
+ 914  NMI02113    0.00%    passed     98.30%
+ 915  NMI02112    0.00%    passed     99.24%
+ 916  NMI02111    0.00%    passed     99.72%
+ 917  NMI02107    0.00%    passed     99.75%
+ 918  NMI02106    0.00%    passed     85.13%
+ 919  NMI02101    0.00%    passed     99.96%
+ 920  NMI02100    0.00%    passed     99.97%
+ 921  NMI0298     0.00%    passed     85.19%
+ 922  NMI0294     0.00%    passed     99.90%
+ 923  NMI0293     0.00%    passed     98.78%
+ 924  NMI0286     0.00%    passed     99.97%
+ 925  NMI0285     0.00%    passed     99.97%
+ 926  NMI0281     0.00%    passed     99.83%
+ 927  NMI0270     0.00%    passed     99.06%
+ 928  NMI0269     0.00%    passed     75.18%
+ 929  NMI0266     0.00%    passed     89.59%
+ 930  NMI0260     0.00%    passed     98.25%
+ 931  NMI0258     0.00%    passed     99.92%
+ 932  NMI0256     0.00%    passed     94.80%
+ 933  NMI0255     0.00%    passed    100.00%
+ 934  NMI0254     0.00%    passed     98.80%
+ 935  NMI0252     0.00%    passed     98.68%
+ 936  NMI0251     0.00%    passed     97.50%
+ 937  NMI0250     0.00%    passed     98.70%
+ 938  NMI0249     0.00%    passed     87.54%
+ 939  NMI0243     0.00%    passed     98.66%
+ 940  NMI0241     0.00%    passed     98.87%
+ 941  NMI0240     0.00%    passed     99.88%
+ 942  NMI0237     0.00%    passed     99.59%
+ 943  NMI0231     0.00%    passed     99.72%
+ 944  NMI0230     0.00%    passed     92.89%
+ 945  NMI0227     0.00%    passed     92.99%
+ 946  NMI0226     0.00%    passed     98.65%
+ 947  NMI0224     0.00%    passed     99.21%
+ 948  NMI0223     0.00%    passed     91.94%
+ 949  NMI0222     0.00%    passed     99.94%
+ 950  NMI0219     0.00%    passed     99.88%
+ 951  NMI0217     0.00%    passed     99.93%
+ 952  NMI0215     0.00%    passed     99.90%
+ 953  NMI0214     0.00%    passed     99.95%
+ 954  NMI0211     0.00%    passed     99.84%
+ 955  NMI027      0.00%    passed     96.75%
+ 956  NMI026      0.00%    passed     99.98%
+ 957  NMI024      0.00%    passed     98.99%
+ 958  NMI021      0.00%    passed     99.56%
+ 959  NMI03289    0.00%    passed     99.44%
+ 960  NMI03283    0.00%    passed     99.44%
+ 961  NMI03282    0.00%    passed     99.62%
+ 962  NMI03280    0.00%    passed     99.93%
+ 963  NMI03278    0.00%    passed     99.97%
+ 964  NMI03275    0.00%    passed     98.98%
+ 965  NMI03273    0.00%    passed     99.68%
+ 966  NMI03271    0.00%    passed     98.25%
+ 967  NMI03269    0.00%    passed     74.81%
+ 968  NMI03267    0.00%    passed     99.48%
+ 969  NMI03265    0.00%    passed     99.96%
+ 970  NMI03264    0.00%    passed     97.28%
+ 971  NMI03261    0.00%    passed     99.87%
+ 972  NMI03260    0.00%    passed     99.63%
+ 973  NMI03258    0.00%    passed     96.01%
+ 974  NMI03255    0.00%    passed     99.06%
+ 975  NMI03254    0.00%    passed     93.61%
+ 976  NMI03253    0.00%    passed     97.17%
+ 977  NMI03250    0.00%    passed     88.81%
+ 978  NMI03248    0.00%    passed     99.98%
+ 979  NMI03244    0.00%    passed     98.63%
+ 980  NMI03242    0.00%    passed     99.85%
+ 981  NMI03241    0.00%    passed     99.64%
+ 982  NMI03239    0.00%    passed     96.92%
+ 983  NMI03238    0.00%    passed     99.99%
+ 984  NMI03237    0.00%    passed     97.37%
+ 985  NMI03234    0.00%    passed     99.59%
+ 986  NMI03233    0.00%    passed     84.47%
+ 987  NMI03231    0.00%    passed     99.51%
+ 988  NMI03229    0.00%    passed     99.99%
+ 989  NMI03227    0.00%    passed     97.99%
+ 990  NMI03224    0.00%    passed     98.14%
+ 991  NMI03223    0.00%    passed     98.45%
+ 992  NMI03215    0.00%    passed     86.61%
+ 993  NMI03208    0.00%    passed     99.07%
+ 994  NMI03206    0.00%    passed     99.86%
+ 995  NMI03205    0.00%    passed     98.14%
+ 996  NMI03202    0.00%    passed     99.91%
+ 997  NMI03198    0.00%    passed     85.47%
+ 998  NMI03197    0.00%    passed     98.39%
+ 999  NMI03195    0.00%    passed     97.70%
+1000  NMI03192    0.00%    passed     79.04%
+1001  NMI03188    0.00%    passed     91.96%
+1002  NMI03186    0.00%    passed     98.44%
+1003  NMI03185    0.00%    passed     99.89%
+1004  NMI03184    0.00%    passed     99.95%
+1005  NMI03182    0.00%    passed     99.80%
+1006  NMI03181    0.00%    passed     99.30%
+1007  NMI03175    0.00%    passed     99.99%
+1008  NMI03173    0.00%    passed     96.89%
+1009  NMI03172    0.00%    passed     99.86%
+1010  NMI03168    0.00%    passed     99.06%
+1011  NMI03166    0.00%    passed     99.94%
+1012  NMI03159    0.00%    passed     99.83%
+1013  NMI03156    0.00%    passed     99.47%
+1014  NMI03155    0.00%    passed     99.86%
+1015  NMI03152    0.00%    passed     99.24%
+1016  NMI03151    0.00%    passed     97.41%
+1017  NMI03150    0.00%    passed     99.97%
+1018  NMI03149    0.00%    passed     97.10%
+1019  NMI03146    0.00%    passed     98.58%
+1020  NMI03143    0.00%    passed     99.87%
+1021  NMI03141    0.00%    passed     97.66%
+1022  NMI03139    0.00%    passed     97.88%
+1023  NMI03137    0.00%    passed     99.67%
+1024  NMI03134    0.00%    passed     99.97%
+1025  NMI03132    0.00%    passed     99.25%
+1026  NMI03131    0.00%    passed     99.84%
+1027  NMI03129    0.00%    passed     99.92%
+1028  NMI03124    0.00%    passed     99.96%
+1029  NMI03123    0.00%    passed     99.36%
+1030  NMI03122    0.00%    passed     99.94%
+1031  NMI03116    0.00%    passed     86.53%
+1032  NMI03114    0.00%    passed     99.94%
+1033  NMI03111    0.00%    passed     99.52%
+1034  NMI03110    0.00%    passed     99.99%
+1035  NMI03104    0.00%    passed     99.90%
+1036  NMI03103    0.00%    passed     95.10%
+1037  NMI03100    0.00%    passed     99.14%
+1038  NMI0399     0.00%    passed     99.97%
+1039  NMI0397     0.00%    passed     99.80%
+1040  NMI0393     0.00%    passed     96.85%
+1041  NMI0391     0.00%    passed     99.91%
+1042  NMI0390     0.00%    passed     98.73%
+1043  NMI0385     0.00%    passed     99.15%
+1044  NMI0384     0.00%    passed     97.68%
+1045  NMI0383     0.00%    passed     99.97%
+1046  NMI0382     0.00%    passed     99.75%
+1047  NMI0380     0.00%    passed     98.90%
+1048  NMI0379     0.00%    passed     99.87%
+1049  NMI0378     0.00%    passed     99.86%
+1050  NMI0376     0.00%    passed     96.69%
+1051  NMI0375     0.00%    passed    100.00%
+1052  NMI0374     0.00%    passed     99.35%
+1053  NMI0373     0.00%    passed     99.49%
+1054  NMI0370     0.00%    passed     99.82%
+1055  NMI0368     0.00%    passed     99.54%
+1056  NMI0367     0.00%    passed     98.31%
+1057  NMI0365     0.00%    passed     99.84%
+1058  NMI0364     0.00%    passed     98.91%
+1059  NMI0362     0.00%    passed     99.35%
+1060  NMI0361     0.00%    passed     99.97%
+1061  NMI0360     0.00%    passed     99.68%
+1062  NMI0359     0.00%    passed     99.80%
+1063  NMI0358     0.00%    passed     99.73%
+1064  NMI0357     0.00%    passed     99.44%
+1065  NMI0356     0.00%    passed     96.47%
+1066  NMI0353     0.00%    passed    100.00%
+1067  NMI0352     0.00%    passed     99.36%
+1068  NMI0349     0.00%    passed     99.80%
+1069  NMI0347     0.00%    passed     99.98%
+1070  NMI0342     0.00%    passed     98.78%
+1071  NMI0341     0.00%    passed     79.32%
+1072  NMI0340     0.00%    passed     99.98%
+1073  NMI0339     0.00%    passed     93.98%
+1074  NMI0335     0.00%    passed     98.36%
+1075  NMI0334     0.00%    passed     99.00%
+1076  NMI0332     0.00%    passed     99.98%
+1077  NMI0331     0.00%    passed     99.86%
+1078  NMI0328     0.00%    passed     99.98%
+1079  NMI0325     0.00%    passed     99.99%
+1080  NMI0323     0.00%    passed     99.52%
+1081  NMI0321     0.00%    passed     99.81%
+1082  NMI0320     0.00%    passed     99.35%
+1083  NMI0317     0.00%    passed     99.03%
+1084  NMI0315     0.00%    passed     99.24%
+1085  NMI0312     0.00%    passed     97.79%
+1086  NMI0311     0.00%    passed     99.94%
+1087  NMI0310     0.00%    passed     99.95%
+1088  NMI039      0.00%    passed     96.55%
+1089  NMI04212    0.00%    passed     99.42%
+1090  NMI04210    0.00%    passed     98.29%
+1091  NMI04207    0.00%    passed     94.47%
+1092  NMI04203    0.00%    passed     99.80%
+1093  NMI04202    0.00%    passed     97.78%
+1094  NMI04199    0.00%    passed     98.78%
+1095  NMI04194    0.00%    passed     99.89%
+1096  NMI04191    0.00%    passed     99.22%
+1097  NMI04187    0.00%    passed     99.97%
+1098  NMI04183    0.00%    passed     99.87%
+1099  NMI04181    0.00%    passed     99.40%
+1100  NMI04178    0.00%    passed     99.69%
+1101  NMI04176    0.00%    passed     98.92%
+1102  NMI04173    0.00%    passed     99.96%
+1103  NMI04172    0.00%    passed     98.40%
+1104  NMI04171    0.00%    passed     99.91%
+1105  NMI04168    0.00%    passed     99.26%
+1106  NMI04167    0.00%    passed     99.78%
+1107  NMI04166    0.00%    passed     99.82%
+1108  NMI04164    0.00%    passed     99.97%
+1109  NMI04163    0.00%    passed     92.64%
+1110  NMI04158    0.00%    passed     99.92%
+1111  NMI04156    0.00%    passed     99.45%
+1112  NMI04149    0.00%    passed     99.77%
+1113  NMI04147    0.00%    passed     99.59%
+1114  NMI04144    0.00%    passed     89.92%
+1115  NMI04143    0.00%    passed     97.90%
+1116  NMI04142    0.00%    passed     99.95%
+1117  NMI04138    0.00%    passed     83.21%
+1118  NMI04135    0.00%    passed     95.33%
+1119  NMI04134    0.00%    passed     86.68%
+1120  NMI04132    0.00%    passed     99.08%
+1121  NMI04126    0.00%    passed     99.98%
+1122  NMI04124    0.00%    passed     99.41%
+1123  NMI04123    0.00%    passed     99.94%
+1124  NMI04122    0.00%    passed     99.67%
+1125  NMI04120    0.00%    passed     99.59%
+1126  NMI04116    0.00%    passed     99.92%
+1127  NMI04114    0.00%    passed     99.64%
+1128  NMI04107    0.00%    passed     99.33%
+1129  NMI04103    0.00%    passed     99.88%
+1130  NMI04101    0.00%    passed     99.97%
+1131  NMI0497     0.00%    passed     86.70%
+1132  NMI0495     0.00%    passed     99.93%
+1133  NMI0493     0.00%    passed     99.45%
+1134  NMI0492     0.00%    passed     99.39%
+1135  NMI0491     0.00%    passed     90.52%
+1136  NMI0490     0.00%    passed     96.42%
+1137  NMI0489     0.00%    passed     99.03%
+1138  NMI0487     0.00%    passed     99.73%
+1139  NMI0483     0.00%    passed     99.96%
+1140  NMI0481     0.00%    passed     99.55%
+1141  NMI0479     0.00%    passed     93.77%
+1142  NMI0477     0.00%    passed     99.32%
+1143  NMI0475     0.00%    passed     98.96%
+1144  NMI0474     0.00%    passed     94.82%
+1145  NMI0470     0.00%    passed     98.47%
+1146  NMI0468     0.00%    passed     99.19%
+1147  NMI0467     0.00%    passed     99.30%
+1148  NMI0465     0.00%    passed     99.25%
+1149  NMI0462     0.00%    passed     98.85%
+1150  NMI0457     0.00%    passed     99.73%
+1151  NMI0456     0.00%    passed     99.76%
+1152  NMI0452     0.00%    passed     99.81%
+1153  NMI0451     0.00%    passed     92.43%
+1154  NMI0449     0.00%    passed     99.30%
+1155  NMI0448     0.00%    passed     99.09%
+1156  NMI0450     0.00%    passed     99.68%
+1157  NMI0444     0.00%    passed     99.97%
+1158  NMI0441     0.00%    passed     97.97%
+1159  NMI0436     0.00%    passed     97.27%
+1160  NMI0434     0.00%    passed     99.97%
+1161  NMI0430     0.00%    passed     99.00%
+1162  NMI0429     0.00%    passed     90.94%
+1163  NMI0428     0.00%    passed     96.56%
+1164  NMI0427     0.00%    passed     99.28%
+1165  NMI0423     0.00%    passed     99.83%
+1166  NMI0421     0.00%    passed     99.40%
+1167  NMI0419     0.00%    passed     99.18%
+1168  NMI0417     0.00%    passed     99.98%
+1169  NMI0415     0.00%    passed     99.23%
+1170  NMI0414     0.00%    passed     99.44%
+1171  NMI0412     0.00%    passed     99.85%
+1172  NMI0411     0.00%    passed     99.93%
+1173  NMI0410     0.00%    passed     99.43%
+1174  NMI049      0.00%    passed     99.94%
+1175  NMI046      0.00%    passed     93.56%
+1176  NMI045      0.00%    passed     92.59%
+1177  NMI044      0.00%    passed     99.30%
+1178  NMI05168    0.00%    passed     96.55%
+1179  NMI05164    0.00%    passed     90.93%
+1180  NMI05159    0.00%    passed     99.93%
+1181  NMI05157    0.00%    passed     67.63%
+1182  NMI05154    0.00%    passed     96.22%
+1183  NMI05145    0.00%    passed     99.02%
+1184  NMI05143    0.00%    passed     99.67%
+1185  NMI05141    0.00%    passed     98.94%
+1186  NMI05139    0.00%    passed     98.37%
+1187  NMI05127    0.00%    passed     99.88%
+1188  NMI05117    0.00%    passed     99.83%
+1189  NMI05102    0.00%    passed     99.89%
+1190  NMI0596     0.00%    passed     99.30%
+1191  NMI0595     0.00%    passed     99.98%
+1192  NMI0594     0.00%    passed     98.55%
+1193  NMI0588     0.00%    passed     99.96%
+1194  NMI0585     0.00%    passed     98.00%
+1195  NMI0583     0.00%    passed     92.51%
+1196  NMI0582     0.00%    passed     99.97%
+1197  NMI0581     0.00%    passed     93.34%
+1198  NMI0579     0.00%    passed     99.36%
+1199  NMI0578     0.00%    passed     98.31%
+1200  NMI0575     0.00%    passed     99.96%
+1201  NMI0573     0.00%    passed     99.68%
+1202  NMI0570     0.00%    passed     99.66%
+1203  NMI0567     0.00%    passed     99.38%
+1204  NMI0561     0.00%    passed     93.22%
+1205  NMI0559     0.00%    passed     98.74%
+1206  NMI0558     0.00%    passed     95.86%
+1207  NMI0557     0.00%    passed     99.15%
+1208  NMI0555     0.00%    passed     99.69%
+1209  NMI0553     0.00%    passed     95.82%
+1210  NMI0551     0.00%    passed     99.88%
+1211  NMI0548     0.00%    passed     99.89%
+1212  NMI0547     0.00%    passed     99.90%
+1213  NMI0545     0.00%    passed     99.97%
+1214  NMI0541     0.00%    passed     97.21%
+1215  NMI0540     0.00%    passed     98.45%
+1216  NMI0537     0.00%    passed     99.81%
+1217  NMI0535     0.00%    passed     99.43%
+1218  NMI0533     0.00%    passed    100.00%
+1219  NMI0531     0.00%    passed     92.09%
+1220  NMI0530     0.00%    passed     98.53%
+1221  NMI0529     0.00%    passed     98.39%
+1222  NMI0528     0.00%    passed     98.63%
+1223  NMI0524     0.00%    passed     99.99%
+1224  NMI0520     0.00%    passed     92.68%
+1225  NMI0515     0.00%    passed     99.86%
+1226  NMI0513     0.00%    passed     98.86%
+1227  NMI0511     0.00%    passed     99.75%
+1228  NMI059      0.00%    passed     99.93%
+1229  NMI057      0.00%    passed     99.79%
+1230  NMI052      0.00%    passed     99.96%
+1231  NMI051      0.00%    passed     99.29%
+1232  NMI06131    0.00%    passed     99.35%
+1233  NMI06126    0.00%    passed     99.83%
+1234  NMI06123    0.00%    passed     99.71%
+1235  NMI06120    0.00%    passed     99.31%
+1236  NMI06119    0.00%    passed     99.97%
+1237  NMI06107    0.00%    passed     91.53%
+1238  NMI06102    0.00%    passed     97.67%
+1239  NMI06101    0.00%    passed     99.85%
+1240  NMI0699     0.00%    passed     99.03%
+1241  NMI0690     0.00%    passed     88.08%
+1242  NMI0681     0.00%    passed     99.27%
+1243  NMI0679     0.00%    passed     99.24%
+1244  NMI0663     0.00%    passed     98.45%
+1245  NMI0660     0.00%    passed     98.55%
+1246  NMI0649     0.00%    passed     98.38%
+1247  NMI0647     0.00%    passed     99.05%
+1248  NMI0646     0.00%    passed     99.98%
+1249  NMI0641     0.00%    passed     98.29%
+1250  NMI0639     0.00%    passed     99.62%
+1251  NMI0637     0.00%    passed     99.14%
+1252  NMI0631     0.00%    passed     99.95%
+1253  NMI0627     0.00%    passed     97.28%
+1254  NMI0626     0.00%    passed     95.55%
+1255  NMI0623     0.00%    passed     98.38%
+1256  NMI0617     0.00%    passed     99.08%
+1257  NMI0614     0.00%    passed     99.99%
+1258  NMI0792     0.00%    passed     99.98%
+1259  NMI0791     0.00%    passed     98.24%
+1260  NMI0790     0.00%    passed     97.62%
+1261  NMI0785     0.00%    passed     97.49%
+1262  NMI0782     0.00%    passed     96.73%
+1263  NMI0778     0.00%    passed     98.85%
+1264  NMI0767     0.00%    passed     99.96%
+1265  NMI0762     0.00%    passed     99.14%
+1266  NMI0755     0.00%    passed     96.99%
+1267  NMI0753     0.00%    passed     98.43%
+1268  NMI0751     0.00%    passed     99.52%
+1269  NMI0750     0.00%    passed     99.69%
+1270  NMI0749     0.00%    passed     99.74%
+1271  NMI0740     0.00%    passed     98.09%
+1272  NMI0736     0.00%    passed     97.92%
+1273  NMI0733     0.00%    passed     98.71%
+1274  NMI0730     0.00%    passed     99.96%
+1275  NMI0723     0.00%    passed     98.64%
+1276  NMI0720     0.00%    passed     97.78%
+1277  NMI0718     0.00%    passed     98.26%
+1278  NMI079      0.00%    passed     98.68%
+1279  NMI073      0.00%    passed     96.46%
+1280  NMI0896     0.00%    passed     98.71%
+1281  NMI0894     0.00%    passed     99.42%
+1282  NMI0891     0.00%    passed     98.94%
+1283  NMI0889     0.00%    passed     97.78%
+1284  NMI0888     0.00%    passed     99.91%
+1285  NMI0866     0.00%    passed     98.46%
+1286  NMI0863     0.00%    passed     97.96%
+1287  NMI0857     0.00%    passed     99.22%
+1288  NMI0853     0.00%    passed     98.79%
+1289  NMI0849     0.00%    passed     99.99%
+1290  NMI0847     0.00%    passed     98.69%
+1291  NMI0845     0.00%    passed     99.01%
+1292  NMI0844     0.00%    passed     98.87%
+1293  NMI0834     0.00%    passed     98.80%
+1294  NMI0830     0.00%    passed     99.42%
+1295  NMI0826     0.00%    passed     98.72%
+1296  NMI0824     0.00%    passed     95.21%
+1297  NMI0820     0.00%    passed     99.79%
+1298  NMI086      0.00%    passed     99.80%
+1299  NMI084      0.00%    passed     99.81%
+1300  NMI09104    0.00%    passed     99.88%
+1301  NMI0994     0.00%    passed     99.42%
+1302  NMI0993     0.00%    passed     99.43%
+1303  NMI0982     0.00%    passed     97.72%
+1304  NMI0976     0.00%    passed     97.78%
+1305  NMI0974     0.00%    passed     99.99%
+1306  NMI0948     0.00%    passed     99.85%
+1307  NMI0946     0.00%    passed     99.77%
+1308  NMI0939     0.00%    passed     99.61%
+1309  NMI0931     0.00%    passed     99.58%
+1310  NMI0930     0.00%    passed     99.96%
+1311  NMI0929     0.00%    passed     99.83%
+1312  NMI0926     0.00%    passed     96.61%
+1313  NMI0917     0.00%    passed     96.53%
+1314  NMI098      0.00%    passed     98.80%
+1315  NMI092      0.00%    passed     92.61%
+1316  NMI1074     0.00%    passed     99.40%
+1317  NMI1035     0.00%    passed     99.31%
+1318  NMI1028     0.00%    passed     98.37%
+1319  NMI1020     0.00%    passed     99.80%
+1320  NMI1017     0.00%    passed     97.08%
+1321  NMI101      0.00%    passed     93.83%
+1322  NMI1189     0.00%    passed     93.08%
+1323  NMI1186     0.00%    passed     85.94%
+1324  NMI1185     0.00%    passed     99.52%
+1325  NMI1180     0.00%    passed     93.84%
+1326  NMI1174     0.00%    passed     97.93%
+1327  NMI1168     0.00%    passed     99.69%
+1328  NMI1165     0.00%    passed     98.98%
+1329  NMI1163     0.00%    passed     99.75%
+1330  NMI1156     0.00%    passed     93.22%
+1331  NMI1150     0.00%    passed     93.82%
+1332  NMI1144     0.00%    passed     98.24%
+1333  NMI1133     0.00%    passed     99.99%
+1334  NMI1130     0.00%    passed     84.36%
+1335  NMI1125     0.00%    passed     97.71%
+1336  NMI1124     0.00%    passed     97.72%
+1337  NMI1120     0.00%    passed     98.18%
+1338  NMI1119     0.00%    passed     99.00%
+1339  NMI1113     0.00%    passed     99.19%
+1340  NMI112      0.00%    passed     99.96%
+1341  NMI111      0.00%    passed     98.59%
+1342  NMI1264     0.00%    passed     99.74%
+1343  NMI1258     0.00%    passed     99.30%
+1344  NMI1256     0.00%    passed     98.00%
+1345  NMI1233     0.00%    passed     99.00%
+1346  NMI1344     0.00%    passed     99.12%
+1347  NMI1341     0.00%    passed     98.43%
+1348  NMI1320     0.00%    passed     93.46%
+1349  NMI138      0.00%    passed     97.89%
+1350  NMI135      0.00%    passed     95.22%
+1351  14MI0035    0.00%    passed     98.98%
+1352  14MI0033    0.00%    passed     99.31%
+1353  14MI0019    0.00%    passed    100.00%
+1354  14MI0013    0.00%    passed     95.23%
+1355  14MI0012    0.00%    passed     99.36%
+1356  15MI0034    0.00%    passed     95.04%
+1357  15MI0030    0.00%    passed     97.03%
+1358  15MI0021    0.00%    passed     99.31%
+1359  15MI0019    0.00%    passed     94.77%
+1360  16MI0015    0.00%    passed     99.72%
+1361  16MI0033    0.00%    passed     96.95%
+1362  17MI0008    0.00%    passed     96.82%
+1363  17MI0038    0.00%    passed     99.75%
+1364  17MI0043    0.00%    passed     99.12%
+1365  17MI0003    0.00%    passed     97.16%
+1366  NMI1042     0.00%    passed     98.48%
+1367  NMI0838     0.00%    passed     98.06%
+1368  19MI0104    0.00%    passed     99.50%
+****  TOTAL       0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000834892 for long alignment
+NOTE: NMI94233 is identical to NMI94245 but kept for subsequent analysis
+NOTE: NMI0533 is identical to NMI98254 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 74.452 seconds
+Generating 4000 samples for ultrafast bootstrap (seed: 945081)...
+
+NOTE: 9100 MB RAM (8 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3435483.189
+2. Current log-likelihood: -3210309.760
+3. Current log-likelihood: -3203033.835
+4. Current log-likelihood: -3194631.071
+5. Current log-likelihood: -3190114.285
+6. Current log-likelihood: -3188997.055
+7. Current log-likelihood: -3188802.755
+8. Current log-likelihood: -3188763.387
+9. Current log-likelihood: -3188754.898
+10. Current log-likelihood: -3188752.904
+11. Current log-likelihood: -3188752.425
+12. Current log-likelihood: -3188752.217
+13. Current log-likelihood: -3188752.089
+Optimal log-likelihood: -3188752.007
+Rate parameters:  A-C: 0.96372  A-G: 5.37548  A-T: 0.52466  C-G: 0.58949  C-T: 5.27817  G-T: 1.00000
+Base frequencies:  A: 0.196  C: 0.299  G: 0.304  T: 0.202
+Site proportion and rates:  (0.811,0.553) (0.178,2.408) (0.011,11.128)
+Parameters optimization took 13 rounds (344.814 sec)
+Computing ML distances based on estimated model parameters... 19752.847 sec
+Computing BIONJ tree...
+6.707 seconds
+Log-likelihood of BIONJ tree: -3192336.153
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 9062.166 second
+Computing log-likelihood of 98 initial trees ... 179.324 seconds
+Current best score: -3184785.917
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3183444.159
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -3183359.235
+Iteration 10 / LogL: -3184815.301 / Time: 3h:10m:2s
+Iteration 20 / LogL: -3185345.698 / Time: 3h:32m:7s
+Finish initializing candidate tree set (20)
+Current best tree score: -3183359.235 / CPU time: 11947.221
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3196255.423 / Time: 3h:38m:35s (8h:59m:10s left)
+Iteration 40 / LogL: -3190652.501 / Time: 3h:44m:38s (5h:54m:52s left)
+Iteration 50 / LogL: -3197607.203 / Time: 3h:50m:52s (4h:3m:29s left)
+Log-likelihood cutoff on original alignment: -3184967.957
+Iteration 60 / LogL: -3185090.787 / Time: 3h:57m:47s (2h:48m:15s left)
+Iteration 70 / LogL: -3187261.569 / Time: 4h:4m:25s (1h:52m:41s left)
+Iteration 80 / LogL: -3185923.493 / Time: 4h:10m:55s (1h:9m:28s left)
+Iteration 90 / LogL: -3193356.603 / Time: 4h:17m:2s (0h:34m:27s left)
+Iteration 100 / LogL: -3198114.129 / Time: 4h:23m:26s (0h:5m:17s left)
+Log-likelihood cutoff on original alignment: -3184967.957
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 4h:25m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3183359.235
+2. Current log-likelihood: -3183359.214
+3. Current log-likelihood: -3183359.192
+4. Current log-likelihood: -3183359.175
+5. Current log-likelihood: -3183359.155
+6. Current log-likelihood: -3183359.141
+7. Current log-likelihood: -3183359.123
+8. Current log-likelihood: -3183359.109
+9. Current log-likelihood: -3183359.092
+10. Current log-likelihood: -3183359.078
+Optimal log-likelihood: -3183359.068
+Rate parameters:  A-C: 0.96470  A-G: 5.38003  A-T: 0.52420  C-G: 0.59152  C-T: 5.28935  G-T: 1.00000
+Base frequencies:  A: 0.196  C: 0.299  G: 0.304  T: 0.202
+Site proportion and rates:  (0.809,0.552) (0.179,2.387) (0.011,10.969)
+Parameters optimization took 10 rounds (95.032 sec)
+BEST SCORE FOUND : -3183359.068
+
+Testing tree branches by SH-like aLRT with 2000 replicates...
+Alternative NNI shows better log-likelihood -3183359.029 > -3183359.068
+Alternative NNI shows better log-likelihood -3183359.045 > -3183359.068
+Alternative NNI shows better log-likelihood -3183359.054 > -3183359.068
+Alternative NNI shows better log-likelihood -3183357.997 > -3183359.068
+145.291 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.splits.nex
+Total tree length: 3.926
+
+Total number of iterations: 103
+CPU time used for tree search: 456569.297 sec (126h:49m:29s)
+Wall-clock time used for tree search: 15170.489 sec (4h:12m:50s)
+Total CPU time used: 516470.940 sec (143h:27m:50s)
+Total wall-clock time used: 16217.116 sec (4h:30m:17s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.splits.nex...
+1368 taxa and 4814 splits.
+Consensus tree written to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.contree
+Reading input trees file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.contree
+Log-likelihood of consensus tree: -3183362.087
+
+Analysis results written to: 
+  IQ-TREE report:                /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.iqtree
+  Maximum-likelihood tree:       /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.treefile
+  Likelihood distances:          /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.splits.nex
+  Consensus tree:                /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.contree
+  Screen log file:               /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_trees/2371IDs_42clade_2outSNPs.phylip.log
+
+Date and Time: Tue Jun  8 03:38:33 2021

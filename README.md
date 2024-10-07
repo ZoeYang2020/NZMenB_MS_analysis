@@ -1,2 +1,2 @@
-# NZMenB_MS_analysis
-NZMenB_MS_analysis
+# NZMenB_analysis
+NZMenB_analysis

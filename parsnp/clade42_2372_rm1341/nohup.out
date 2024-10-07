@@ -1,0 +1,44 @@
+|--Parsnp v1.2--|
+For detailed documentation please see --> http://harvest.readthedocs.org/en/latest
+-->Reading Genome (asm, fasta) files from /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2372_42clade_fasta_rmNMI1341..
+  |->[OK]
+-->Reading Genbank file(s) for reference (.gbk) ..
+  |->[WARNING]: no genbank file provided for reference annotations, skipping..
+**************************************************************************************************************
+SETTINGS:
+|-refgenome:	/home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/NC_017518.fa
+|-aligner:	libMUSCLE
+|-seqdir:	/home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2372_42clade_fasta_rmNMI1341
+|-outdir:	/home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341
+|-OS:		Linux
+|-threads:	32
+**************************************************************************************************************
+
+<<Parsnp started>>
+
+-->Running Parsnp multi-MUM search and libMUSCLE aligner..
+  |->[OK]
+-->Running PhiPack on LCBs to detect recombination..
+  |->[OK]
+-->Reconstructing core genome phylogeny..
+  |->[OK]
+-->Creating Gingr input file..
+  |->[OK]
+-->Calculating wall clock time.. 
+  |->Aligned 1368 genomes in 2.22 hours
+
+<<Parsnp finished! All output available in /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341>>
+
+Validating output directory contents...
+	1)parsnp.tree:		newick format tree 			[OK]
+	2)parsnp.ggr:		harvest input file for gingr (GUI) 	[OK]
+	3)parsnp.xmfa:		XMFA formatted multi-alignment 		[OK]
+
+Loading /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341/parsnp.xmfa...
+Writing /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341/42_2372parsnp.fasta...
+Loading /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rmNMI1341/parsnp.xmfa...
+Loading /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rmNMI1341/parsnp.xmfa...
+Loading /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341/parsnp.xmfa...
+Writing /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/clade42_2372_rm1341/42_2372_rmNMI1341parsnp.fasta...
+./change_xmfa2fata_1.sh: line 5: 18060 Terminated              /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/bin/harvesttools-Linux64-v1.2/harvesttools -x $input -M $outdir/42_2372_rmNMI1341parsnp.fasta
+./change_xmfa2fata.sh: line 5: 26555 Terminated              /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/bin/harvesttools-Linux64-v1.2/harvesttools -x $input -M $outdir/42_2372_rmNMI1341parsnp.fasta

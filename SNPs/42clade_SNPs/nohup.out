@@ -1,0 +1,47 @@
+[E::hts_open_format] [E::hts_open_format] [E::hts_open_format] Failed to open file "NMI04019" : No such file or directory[E::hts_open_format] Failed to open file "NMI04019" : No such file or directoryFailed to open file "NMI04019" : No such file or directory
+
+[E::hts_open_format] [E::hts_open_format] Failed to open file "NMI04019" : No such file or directory[E::hts_open_format] [E::hts_open_format] 
+Failed to open file "NMI04019" : No such file or directory[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+Failed to open file "NMI04019" : No such file or directoryERROR(freebayes): ERROR(freebayes): [E::hts_open_format] Failed to open file "NMI04019" : No such file or directoryFailed to open file "NMI04019" : No such file or directory
+
+
+ERROR(freebayes): Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019Failed to open file "NMI04019" : No such file or directoryERROR(freebayes): 
+
+
+
+Could not open input BAM file: NMI04019
+
+ERROR(freebayes): ERROR(freebayes): Could not open input BAM file: NMI04019ERROR(freebayes): ERROR(freebayes): Could not open input BAM file: NMI04019ERROR(freebayes): 
+ERROR(freebayes): 
+Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019
+
+
+
+
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] [E::hts_open_format] Failed to open file "NMI04019" : No such file or directory[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+
+Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): ERROR(freebayes): ERROR(freebayes): Could not open input BAM file: NMI04019Could not open input BAM file: NMI04019
+Could not open input BAM file: NMI04019
+
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directoryERROR(freebayes): 
+Could not open input BAM file: NMI04019
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+[E::hts_open_format] Failed to open file "NMI04019" : No such file or directory
+ERROR(freebayes): Could not open input BAM file: NMI04019
+/opt/bioinf/freebayes/1.3.4/bin/freebayes: line 6:  9812 Hangup                  singularity --silent exec -B /NGS /opt/bioinf/freebayes/${VERSION}/freebayes_${VERSION}.sif $name $@
+/opt/bioinf/freebayes/1.3.4/bin/freebayes: line 6: 19126 Terminated              singularity --silent exec -B /NGS /opt/bioinf/freebayes/${VERSION}/freebayes_${VERSION}.sif $name $@
+/opt/bioinf/freebayes/1.3.4/bin/freebayes: line 6: 28268 Terminated              singularity --silent exec -B /NGS /opt/bioinf/freebayes/${VERSION}/freebayes_${VERSION}.sif $name $@

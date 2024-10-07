@@ -1,0 +1,12 @@
+[W::vcf_parse] Contig '##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig '#CHROM' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] FILTER 'FILTER' is not defined in the header
+[W::vcf_parse] INFO 'INFO' is not defined in the header, assuming Type=String
+[W::vcf_parse_format] FORMAT 'FORMAT' is not defined in the header, assuming Type=String
+[E::bcf_write] Broken VCF record, the number of columns at ##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">:1 does not match the number of samples (0 vs 138)
+[W::vcf_parse] Contig '##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig '#CHROM' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] FILTER 'FILTER' is not defined in the header
+[W::vcf_parse] INFO 'INFO' is not defined in the header, assuming Type=String
+[W::vcf_parse_format] FORMAT 'FORMAT' is not defined in the header, assuming Type=String
+[E::bcf_write] Broken VCF record, the number of columns at ##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">:1 does not match the number of samples (0 vs 138)

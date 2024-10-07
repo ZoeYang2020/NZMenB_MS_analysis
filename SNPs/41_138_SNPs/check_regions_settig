@@ -1,0 +1,5 @@
+freebayes -p 1 -f $ref -L $bam_file_list -r contig_1:0-501000 > clade41_138_raw_region1.vcf
+freebayes -p 1 -f $ref -L $bam_file_list -r contig_1:500000-1001000 > clade41_138_raw_region2.vcf
+freebayes -p 1 -f $ref -L $bam_file_list -r contig_1:1000000-1501000 > clade41_138_raw_region3.vcf
+freebayes -p 1 -f $ref -L $bam_file_list -r contig_1:1500000-2001000 > clade41_138_raw_region4.vcf
+freebayes -p 1 -f $ref -L $bam_file_list -r contig_1:2000000-2217832 > clade41_138_raw_region5.vcf

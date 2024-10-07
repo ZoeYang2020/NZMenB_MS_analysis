@@ -1,0 +1,41 @@
+egment partition: 
+Call:
+breakpoints.Fstats(obj = fs_rate)
+Breakpoints at observation number:
+15 
+Corresponding to breakdates:
+2004 
+
+Optimal (m+1)-segment partition: 
+Call:
+breakpoints.formula(formula = d1 ~ 1)
+Breakpoints at observation number:
+                        
+m = 1        15         
+m = 2   5    15         
+m = 3   5    14 18      
+m = 4   5 10 14 18      
+m = 5   5 10 14 18 22   
+m = 6   5 10 14 18 22 26
+
+Corresponding to breakdates:                                     
+m = 1             2004               
+m = 2   1994      2004               
+m = 3   1994      2003 2007          
+m = 4   1994 1999 2003 2007          
+m = 5   1994 1999 2003 2007 2011     
+m = 6   1994 1999 2003 2007 2011 2015
+
+Fit:                                                   
+m   0      1      2      3      4      5      6     
+RSS 768.69 356.51  85.91  70.51  66.55  64.62  63.17
+BIC 189.24 173.00 137.11 137.98 143.05 148.97 155.09
+
+ 
+Optimal 3-segment partition: 
+Call:
+breakpoints.breakpointsfull(obj = bp.rate)
+Breakpoints at observation number:
+5 15 
+Corresponding to breakdates:
+1994 2004 

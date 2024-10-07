@@ -1,0 +1,584 @@
+Number of sequences analyzed:        93
+
+Sequence 1 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/parsnp/2371_clade41_92/NMI01191_flye_polish.fasta.ref
+NMI01191_flye_polish.fasta.ref
+Length:   2217832 bps
+ GC: 1140999.0
+ AT: 1076833.0
+Sequence 2 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9455.fasta
+NMI9455.fasta
+Length:   2192971 bps
+ GC: 1110982.0
+ AT: 1045719.0
+Sequence 3 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0945.fasta
+NMI0945.fasta
+Length:   2185277 bps
+ GC: 1107398.0
+ AT: 1042229.0
+Sequence 4 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI99179.fasta
+NMI99179.fasta
+Length:   2195116 bps
+ GC: 1110637.0
+ AT: 1044179.0
+Sequence 5 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96114.fasta
+NMI96114.fasta
+Length:   2192447 bps
+ GC: 1110043.0
+ AT: 1043964.0
+Sequence 6 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI02240.fasta
+NMI02240.fasta
+Length:   2192067 bps
+ GC: 1107882.0
+ AT: 1042335.0
+Sequence 7 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI99247.fasta
+NMI99247.fasta
+Length:   2135641 bps
+ GC: 1089253.0
+ AT: 1017558.0
+Sequence 8 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI01222.fasta
+NMI01222.fasta
+Length:   2191493 bps
+ GC: 1108357.0
+ AT: 1041286.0
+Sequence 9 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96303.fasta
+NMI96303.fasta
+Length:   2191751 bps
+ GC: 1109755.0
+ AT: 1043866.0
+Sequence 10 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9328.fasta
+NMI9328.fasta
+Length:   2198141 bps
+ GC: 1114820.0
+ AT: 1050771.0
+Sequence 11 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0670.fasta
+NMI0670.fasta
+Length:   2189809 bps
+ GC: 1108759.0
+ AT: 1042920.0
+Sequence 12 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI00168.fasta
+NMI00168.fasta
+Length:   2220914 bps
+ GC: 1116874.0
+ AT: 1054750.0
+Sequence 13 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95244.fasta
+NMI95244.fasta
+Length:   2189614 bps
+ GC: 1106373.0
+ AT: 1040151.0
+Sequence 14 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9851.fasta
+NMI9851.fasta
+Length:   2190188 bps
+ GC: 1109287.0
+ AT: 1042771.0
+Sequence 15 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI05106.fasta
+NMI05106.fasta
+Length:   2201683 bps
+ GC: 1111565.0
+ AT: 1045478.0
+Sequence 16 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI04129.fasta
+NMI04129.fasta
+Length:   2191494 bps
+ GC: 1108685.0
+ AT: 1042819.0
+Sequence 17 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9988.fasta
+NMI9988.fasta
+Length:   2192761 bps
+ GC: 1108770.0
+ AT: 1043071.0
+Sequence 18 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97122.fasta
+NMI97122.fasta
+Length:   2193531 bps
+ GC: 1112409.0
+ AT: 1046092.0
+Sequence 19 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0198.fasta
+NMI0198.fasta
+Length:   2231627 bps
+ GC: 1131793.0
+ AT: 1062014.0
+Sequence 20 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI94167.fasta
+NMI94167.fasta
+Length:   2194039 bps
+ GC: 1110920.0
+ AT: 1045299.0
+Sequence 21 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI93158.fasta
+NMI93158.fasta
+Length:   2191678 bps
+ GC: 1111632.0
+ AT: 1045946.0
+Sequence 22 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI93107.fasta
+NMI93107.fasta
+Length:   2208083 bps
+ GC: 1116445.0
+ AT: 1052888.0
+Sequence 23 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI106.fasta
+NMI106.fasta
+Length:   2183668 bps
+ GC: 1109245.0
+ AT: 1042803.0
+Sequence 24 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI92127.fasta
+NMI92127.fasta
+Length:   2190132 bps
+ GC: 1110327.0
+ AT: 1044155.0
+Sequence 25 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9511.fasta
+NMI9511.fasta
+Length:   2203723 bps
+ GC: 1115725.0
+ AT: 1052038.0
+Sequence 26 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95161.fasta
+NMI95161.fasta
+Length:   2195463 bps
+ GC: 1108952.0
+ AT: 1043111.0
+Sequence 27 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI03281.fasta
+NMI03281.fasta
+Length:   2190556 bps
+ GC: 1108157.0
+ AT: 1041479.0
+Sequence 28 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI99152.fasta
+NMI99152.fasta
+Length:   2187835 bps
+ GC: 1109300.0
+ AT: 1042885.0
+Sequence 29 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0589.fasta
+NMI0589.fasta
+Length:   2246783 bps
+ GC: 1132670.0
+ AT: 1066683.0
+Sequence 30 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI076.fasta
+NMI076.fasta
+Length:   2243051 bps
+ GC: 1132400.0
+ AT: 1066631.0
+Sequence 31 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0173.fasta
+NMI0173.fasta
+Length:   2197860 bps
+ GC: 1112000.0
+ AT: 1046180.0
+Sequence 32 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97361.fasta
+NMI97361.fasta
+Length:   2193327 bps
+ GC: 1109812.0
+ AT: 1043525.0
+Sequence 33 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0416.fasta
+NMI0416.fasta
+Length:   2195304 bps
+ GC: 1110668.0
+ AT: 1043716.0
+Sequence 34 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95210.fasta
+NMI95210.fasta
+Length:   2187694 bps
+ GC: 1107869.0
+ AT: 1041075.0
+Sequence 35 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI00154.fasta
+NMI00154.fasta
+Length:   2188502 bps
+ GC: 1110383.0
+ AT: 1044949.0
+Sequence 36 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97265.fasta
+NMI97265.fasta
+Length:   2231038 bps
+ GC: 1131485.0
+ AT: 1060803.0
+Sequence 37 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97387.fasta
+NMI97387.fasta
+Length:   2194321 bps
+ GC: 1109758.0
+ AT: 1043333.0
+Sequence 38 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0395.fasta
+NMI0395.fasta
+Length:   2190832 bps
+ GC: 1109147.0
+ AT: 1043245.0
+Sequence 39 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96169.fasta
+NMI96169.fasta
+Length:   2192007 bps
+ GC: 1110425.0
+ AT: 1044692.0
+Sequence 40 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI067.fasta
+NMI067.fasta
+Length:   2195072 bps
+ GC: 1110540.0
+ AT: 1044852.0
+Sequence 41 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96308.fasta
+NMI96308.fasta
+Length:   2200369 bps
+ GC: 1112208.0
+ AT: 1046311.0
+Sequence 42 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI006.fasta
+NMI006.fasta
+Length:   2196382 bps
+ GC: 1110087.0
+ AT: 1044445.0
+Sequence 43 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97398.fasta
+NMI97398.fasta
+Length:   2208548 bps
+ GC: 1118019.0
+ AT: 1055189.0
+Sequence 44 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI93116.fasta
+NMI93116.fasta
+Length:   2190640 bps
+ GC: 1111196.0
+ AT: 1045344.0
+Sequence 45 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95151.fasta
+NMI95151.fasta
+Length:   2189495 bps
+ GC: 1109163.0
+ AT: 1043132.0
+Sequence 46 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0472.fasta
+NMI0472.fasta
+Length:   2197311 bps
+ GC: 1110937.0
+ AT: 1045144.0
+Sequence 47 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95101.fasta
+NMI95101.fasta
+Length:   2188530 bps
+ GC: 1106402.0
+ AT: 1040278.0
+Sequence 48 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96314.fasta
+NMI96314.fasta
+Length:   2215002 bps
+ GC: 1118919.0
+ AT: 1057023.0
+Sequence 49 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0618.fasta
+NMI0618.fasta
+Length:   2199734 bps
+ GC: 1112314.0
+ AT: 1048050.0
+Sequence 50 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI01368.fasta
+NMI01368.fasta
+Length:   2188274 bps
+ GC: 1109260.0
+ AT: 1043054.0
+Sequence 51 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9039.fasta
+NMI9039.fasta
+Length:   2265408 bps
+ GC: 1130951.0
+ AT: 1067807.0
+Sequence 52 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9693.fasta
+NMI9693.fasta
+Length:   2221692 bps
+ GC: 1129294.0
+ AT: 1060158.0
+Sequence 53 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI01168.fasta
+NMI01168.fasta
+Length:   2195639 bps
+ GC: 1112525.0
+ AT: 1047774.0
+Sequence 54 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI00204.fasta
+NMI00204.fasta
+Length:   2195024 bps
+ GC: 1110525.0
+ AT: 1045749.0
+Sequence 55 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96163.fasta
+NMI96163.fasta
+Length:   2226640 bps
+ GC: 1128369.0
+ AT: 1058901.0
+Sequence 56 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0066.fasta
+NMI0066.fasta
+Length:   2218133 bps
+ GC: 1116664.0
+ AT: 1054659.0
+Sequence 57 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9923.fasta
+NMI9923.fasta
+Length:   2199188 bps
+ GC: 1113382.0
+ AT: 1047676.0
+Sequence 58 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI03263.fasta
+NMI03263.fasta
+Length:   2194526 bps
+ GC: 1110461.0
+ AT: 1044385.0
+Sequence 59 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI98267.fasta
+NMI98267.fasta
+Length:   2179248 bps
+ GC: 1111854.0
+ AT: 1038254.0
+Sequence 60 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI04193.fasta
+NMI04193.fasta
+Length:   2189588 bps
+ GC: 1107232.0
+ AT: 1040816.0
+Sequence 61 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI03246.fasta
+NMI03246.fasta
+Length:   2194101 bps
+ GC: 1109898.0
+ AT: 1044833.0
+Sequence 62 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI04208.fasta
+NMI04208.fasta
+Length:   2195725 bps
+ GC: 1109903.0
+ AT: 1044282.0
+Sequence 63 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI01191.fasta
+NMI01191.fasta
+Length:   2189586 bps
+ GC: 1109290.0
+ AT: 1043716.0
+Sequence 64 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI1118.fasta
+NMI1118.fasta
+Length:   2193010 bps
+ GC: 1109151.0
+ AT: 1043869.0
+Sequence 65 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI94202.fasta
+NMI94202.fasta
+Length:   2190625 bps
+ GC: 1110523.0
+ AT: 1045072.0
+Sequence 66 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95166.fasta
+NMI95166.fasta
+Length:   2192960 bps
+ GC: 1109737.0
+ AT: 1044163.0
+Sequence 67 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI01281.fasta
+NMI01281.fasta
+Length:   2194869 bps
+ GC: 1109856.0
+ AT: 1044713.0
+Sequence 68 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0440.fasta
+NMI0440.fasta
+Length:   2199976 bps
+ GC: 1112041.0
+ AT: 1046395.0
+Sequence 69 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI98243.fasta
+NMI98243.fasta
+Length:   2194781 bps
+ GC: 1109797.0
+ AT: 1042824.0
+Sequence 70 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9217.fasta
+NMI9217.fasta
+Length:   2215054 bps
+ GC: 1118905.0
+ AT: 1057399.0
+Sequence 71 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI99216.fasta
+NMI99216.fasta
+Length:   2196139 bps
+ GC: 1110501.0
+ AT: 1045028.0
+Sequence 72 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0817.fasta
+NMI0817.fasta
+Length:   2200240 bps
+ GC: 1110433.0
+ AT: 1044857.0
+Sequence 73 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI02144.fasta
+NMI02144.fasta
+Length:   2190825 bps
+ GC: 1108937.0
+ AT: 1041898.0
+Sequence 74 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0187.fasta
+NMI0187.fasta
+Length:   2182363 bps
+ GC: 1106938.0
+ AT: 1038845.0
+Sequence 75 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9644.fasta
+NMI9644.fasta
+Length:   2228710 bps
+ GC: 1122154.0
+ AT: 1061916.0
+Sequence 76 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95150.fasta
+NMI95150.fasta
+Length:   2190327 bps
+ GC: 1109084.0
+ AT: 1043113.0
+Sequence 77 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0667.fasta
+NMI0667.fasta
+Length:   2180012 bps
+ GC: 1104123.0
+ AT: 1038069.0
+Sequence 78 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0879.fasta
+NMI0879.fasta
+Length:   2188478 bps
+ GC: 1107810.0
+ AT: 1041298.0
+Sequence 79 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI03109.fasta
+NMI03109.fasta
+Length:   2185744 bps
+ GC: 1106133.0
+ AT: 1040551.0
+Sequence 80 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI99190.fasta
+NMI99190.fasta
+Length:   2193708 bps
+ GC: 1110374.0
+ AT: 1043654.0
+Sequence 81 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI95134.fasta
+NMI95134.fasta
+Length:   2191936 bps
+ GC: 1110530.0
+ AT: 1044516.0
+Sequence 82 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9334.fasta
+NMI9334.fasta
+Length:   2207792 bps
+ GC: 1116603.0
+ AT: 1053059.0
+Sequence 83 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9118.fasta
+NMI9118.fasta
+Length:   2241374 bps
+ GC: 1122172.0
+ AT: 1059372.0
+Sequence 84 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI92148.fasta
+NMI92148.fasta
+Length:   2191587 bps
+ GC: 1110907.0
+ AT: 1045030.0
+Sequence 85 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI985.fasta
+NMI985.fasta
+Length:   2186453 bps
+ GC: 1107542.0
+ AT: 1041711.0
+Sequence 86 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI03249.fasta
+NMI03249.fasta
+Length:   2191818 bps
+ GC: 1108324.0
+ AT: 1041954.0
+Sequence 87 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9539.fasta
+NMI9539.fasta
+Length:   2193371 bps
+ GC: 1111217.0
+ AT: 1045574.0
+Sequence 88 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI97329.fasta
+NMI97329.fasta
+Length:   2188556 bps
+ GC: 1110908.0
+ AT: 1044788.0
+Sequence 89 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI9547.fasta
+NMI9547.fasta
+Length:   2191233 bps
+ GC: 1109987.0
+ AT: 1043736.0
+Sequence 90 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI96161.fasta
+NMI96161.fasta
+Length:   2191288 bps
+ GC: 1109494.0
+ AT: 1043664.0
+Sequence 91 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI04110.fasta
+NMI04110.fasta
+Length:   2181697 bps
+ GC: 1106256.0
+ AT: 1039171.0
+Sequence 92 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI0314.fasta
+NMI0314.fasta
+Length:   2191092 bps
+ GC: 1108050.0
+ AT: 1041812.0
+Sequence 93 : /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/fasta/2371_clade41_92_fasta/NMI94189.fasta
+NMI94189.fasta
+Length:   2185773 bps
+ GC: 1108258.0
+ AT: 1041245.0
+d value:   300
+q value:   30
+
+Mum anchor size:   22.0
+Number of MUM anchors found:   15551
+Number of MUMs found:   328
+Total MUMs found((Anchors+MUMs)-filtered):   15541
+
+Random MUM length:   1 
+Minimum Cluster length:   21
+Number of MUMs filtered:   338
+Number of Clusters filtered:   337
+
+Number of clusters created:   742
+Average number of MUMs per cluster:   20
+Average cluster length:   2517 bps
+Cluster coverage in sequence 1:   84.2%
+Cluster coverage in sequence 2:   86.6%
+Cluster coverage in sequence 3:   86.9%
+Cluster coverage in sequence 4:   86.7%
+Cluster coverage in sequence 5:   86.7%
+Cluster coverage in sequence 6:   86.9%
+Cluster coverage in sequence 7:   88.7%
+Cluster coverage in sequence 8:   86.9%
+Cluster coverage in sequence 9:   86.7%
+Cluster coverage in sequence 10:   86.3%
+Cluster coverage in sequence 11:   86.8%
+Cluster coverage in sequence 12:   86.0%
+Cluster coverage in sequence 13:   87.0%
+Cluster coverage in sequence 14:   86.8%
+Cluster coverage in sequence 15:   86.6%
+Cluster coverage in sequence 16:   86.8%
+Cluster coverage in sequence 17:   86.8%
+Cluster coverage in sequence 18:   86.5%
+Cluster coverage in sequence 19:   85.1%
+Cluster coverage in sequence 20:   86.6%
+Cluster coverage in sequence 21:   86.6%
+Cluster coverage in sequence 22:   86.1%
+Cluster coverage in sequence 23:   86.8%
+Cluster coverage in sequence 24:   86.7%
+Cluster coverage in sequence 25:   86.2%
+Cluster coverage in sequence 26:   86.8%
+Cluster coverage in sequence 27:   86.9%
+Cluster coverage in sequence 28:   86.8%
+Cluster coverage in sequence 29:   84.9%
+Cluster coverage in sequence 30:   85.0%
+Cluster coverage in sequence 31:   86.6%
+Cluster coverage in sequence 32:   86.7%
+Cluster coverage in sequence 33:   86.7%
+Cluster coverage in sequence 34:   86.9%
+Cluster coverage in sequence 35:   86.7%
+Cluster coverage in sequence 36:   85.2%
+Cluster coverage in sequence 37:   86.8%
+Cluster coverage in sequence 38:   86.8%
+Cluster coverage in sequence 39:   86.7%
+Cluster coverage in sequence 40:   86.7%
+Cluster coverage in sequence 41:   86.6%
+Cluster coverage in sequence 42:   86.7%
+Cluster coverage in sequence 43:   86.0%
+Cluster coverage in sequence 44:   86.6%
+Cluster coverage in sequence 45:   86.8%
+Cluster coverage in sequence 46:   86.6%
+Cluster coverage in sequence 47:   87.0%
+Cluster coverage in sequence 48:   85.8%
+Cluster coverage in sequence 49:   86.5%
+Cluster coverage in sequence 50:   86.8%
+Cluster coverage in sequence 51:   85.0%
+Cluster coverage in sequence 52:   85.3%
+Cluster coverage in sequence 53:   86.5%
+Cluster coverage in sequence 54:   86.6%
+Cluster coverage in sequence 55:   85.4%
+Cluster coverage in sequence 56:   86.0%
+Cluster coverage in sequence 57:   86.4%
+Cluster coverage in sequence 58:   86.7%
+Cluster coverage in sequence 59:   86.9%
+Cluster coverage in sequence 60:   87.0%
+Cluster coverage in sequence 61:   86.7%
+Cluster coverage in sequence 62:   86.7%
+Cluster coverage in sequence 63:   86.8%
+Cluster coverage in sequence 64:   86.8%
+Cluster coverage in sequence 65:   86.7%
+Cluster coverage in sequence 66:   86.7%
+Cluster coverage in sequence 67:   86.7%
+Cluster coverage in sequence 68:   86.5%
+Cluster coverage in sequence 69:   86.8%
+Cluster coverage in sequence 70:   85.8%
+Cluster coverage in sequence 71:   86.7%
+Cluster coverage in sequence 72:   86.7%
+Cluster coverage in sequence 73:   86.8%
+Cluster coverage in sequence 74:   87.1%
+Cluster coverage in sequence 75:   85.5%
+Cluster coverage in sequence 76:   86.8%
+Cluster coverage in sequence 77:   87.2%
+Cluster coverage in sequence 78:   86.9%
+Cluster coverage in sequence 79:   87.0%
+Cluster coverage in sequence 80:   86.7%
+Cluster coverage in sequence 81:   86.7%
+Cluster coverage in sequence 82:   86.1%
+Cluster coverage in sequence 83:   85.6%
+Cluster coverage in sequence 84:   86.6%
+Cluster coverage in sequence 85:   86.9%
+Cluster coverage in sequence 86:   86.9%
+Cluster coverage in sequence 87:   86.6%
+Cluster coverage in sequence 88:   86.7%
+Cluster coverage in sequence 89:   86.7%
+Cluster coverage in sequence 90:   86.8%
+Cluster coverage in sequence 91:   87.1%
+Cluster coverage in sequence 92:   86.9%
+Cluster coverage in sequence 93:   86.9%
+Total coverage among all sequences:   85.0%
+
+ MUM anchor search elapsed time:   72.0s 
+ MUM coarsening elapsed time:   3.0s 
+ MUM filtering elapsed time:   0.0s 
+ MUM clustering elapsed time:   0.0s 
+ Inter-clustering elapsed time:   2.0s 
+ Total running time:   77.0s 

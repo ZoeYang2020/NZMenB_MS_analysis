@@ -1,0 +1,178 @@
+ClonalFrameML v1.12
+kappa = 3.5969
+emsim = 100
+Finished reading in control file.
+
+Read 92 sequences of length 1871572 sites from /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/clonalframeml/41clade_2371_92_41ref/2371_clade41_92parsnp_rfa.fasta
+IMPUTATION AND RECONSTRUCTION OF ANCESTRAL STATES:
+Analysing 54843 sites
+Empirical nucleotide frequencies:   A 23.9%   C 26.3%   G 26%   T 23.8%
+Maximum log-likelihood for imputation and ancestral state reconstruction = -543332
+Wrote imputed and reconstructed ancestral states to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/clonalframeml/41clade_2371_92_41ref/41clade_2371_92_41refclonalframeml.out.ML_sequence.fasta
+Wrote position cross-reference file to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/clonalframeml/41clade_2371_92_41ref/41clade_2371_92_41refclonalframeml.out.position_cross_reference.txt
+BRANCH LENGTH CORRECTION/RECOMBINATION ANALYSIS:
+Analysing 1871572 sites
+Empirical nucleotide frequencies:   A 23.9%   C 26.3%   G 26%   T 23.8%
+Beginning branch optimization. Key to parameters (and constraints):
+B   uncorrected branch length
+L   maximum unnormalized log-posterior per branch
+P   contribution of the prior to L
+R   R/theta per branch                                       (> 0)
+I   mean DNA import length per branch                        (> 0)
+D   divergence of DNA imported by recombination              (> 0)
+M   expected number of mutations per branch                  (> 0)
+ L = -494345 P = 1353.53 R = 1.13941 I = 656.734 D = 0.0364844 in 4297.97 s and 24 evaluations
+ Posterior alphas: R = 3518.17 I = 3517.38 D = 84242.2
+ ClonalFrameML log-likelihood ratio of 1.24678e+06 indicates evidence for recombination
+Branch NMI9455 B = 0.00139882 M = 3.58764e-05
+Branch NMI0945 B = 1.12205e-05 M = 9.69308e-06
+Branch NMI96114 B = 3.20586e-06 M = 3.07384e-06
+Branch NMI02240 B = 0.000108999 M = 6.65453e-06
+Branch NMI99247 B = 0.000177925 M = 1.54728e-05
+Branch NMI01222 B = 3.25929e-05 M = 2.59852e-06
+Branch NMI96303 B = 2.67155e-06 M = 2.56595e-06
+Branch NMI9328 B = 0.00130478 M = 5.00302e-05
+Branch NMI0670 B = 0.000202503 M = 4.10149e-06
+Branch NMI00168 B = 5.23623e-05 M = 2.59117e-06
+Branch NMI95244 B = 2.67155e-06 M = 2.56698e-06
+Branch NMI9851 B = 1.06862e-06 M = 1.04006e-06
+Branch NMI05106 B = 2.67155e-06 M = 2.56611e-06
+Branch NMI04129 B = 3.47301e-05 M = 5.62309e-06
+Branch NMI9988 B = 2.67155e-06 M = 2.56542e-06
+Branch NMI97122 B = 1.06862e-06 M = 1.04022e-06
+Branch NMI0198 B = 0.000497977 M = 1.05492e-05
+Branch NMI94167 B = 1.06862e-06 M = 1.0401e-06
+Branch NMI93158 B = 0.000156553 M = 1.04524e-06
+Branch NMI106 B = 0.000159224 M = 4.16391e-06
+Branch NMI9511 B = 2.67155e-06 M = 2.56618e-06
+Branch NMI95161 B = 1.01519e-05 M = 9.68887e-06
+Branch NMI03281 B = 0.000144264 M = 1.03013e-05
+Branch NMI99152 B = 1.06862e-06 M = 1.04004e-06
+Branch NMI0589 B = 4.27448e-06 M = 4.09298e-06
+Branch NMI076 B = 2.67155e-06 M = 2.56603e-06
+Branch NMI0173 B = 2.67155e-06 M = 2.56655e-06
+Branch NMI97361 B = 3.41958e-05 M = 2.57798e-06
+Branch NMI0416 B = 0.00140043 M = 6.88289e-05
+Branch NMI95210 B = 4.27448e-06 M = 4.09249e-06
+Branch NMI00154 B = 5.87741e-06 M = 5.61871e-06
+Branch NMI97265 B = 3.95389e-05 M = 1.48046e-06
+Branch NMI97387 B = 9.02983e-05 M = 4.03087e-06
+Branch NMI0395 B = 8.54895e-06 M = 4.03261e-06
+Branch NMI96169 B = 1.06862e-06 M = 1.03991e-06
+Branch NMI067 B = 3.20586e-06 M = 3.07408e-06
+Branch NMI96308 B = 0.00411418 M = 0.000144148
+Branch NMI006 B = 2.13724e-06 M = 2.05695e-06
+Branch NMI97398 B = 0.00120327 M = 1.98913e-05
+Branch NMI93116 B = 3.74017e-05 M = 3.63392e-06
+Branch NMI0472 B = 2.13724e-06 M = 2.05786e-06
+Branch NMI95101 B = 1.60293e-06 M = 1.54986e-06
+Branch NMI96314 B = 0.000399664 M = 1.23482e-05
+Branch NMI0618 B = 0.000377757 M = 1.99755e-05
+Branch NMI01368 B = 0.00143569 M = 5.52791e-05
+Branch NMI9039 B = 0.000502785 M = 1.08407e-05
+Branch NMI9693 B = 2.13724e-06 M = 2.05761e-06
+Branch NMI01168 B = 0.00127753 M = 3.88866e-05
+Branch NMI00204 B = 3.41958e-05 M = 5.09299e-06
+Branch NMI96163 B = 5.3431e-06 M = 5.10786e-06
+Branch NMI0066 B = 2.67155e-06 M = 2.56683e-06
+Branch NMI9923 B = 0.000985267 M = 2.80935e-05
+Branch NMI03263 B = 1.06862e-06 M = 1.04008e-06
+Branch NMI98267 B = 0.00268544 M = 7.20351e-05
+Branch NMI04193 B = 4.27448e-06 M = 4.0913e-06
+Branch NMI04208 B = 6.41172e-06 M = 6.12579e-06
+Branch NMI01191 B = 9.61757e-06 M = 9.1806e-06
+Branch NMI1118 B = 0.00298679 M = 9.55683e-05
+Branch NMI94202 B = 1.06862e-06 M = 1.04041e-06
+Branch NMI95166 B = 2.03038e-05 M = 2.06078e-06
+Branch NMI01281 B = 2.13724e-06 M = 2.05896e-06
+Branch NMI0440 B = 3.20586e-05 M = 1.05037e-06
+Branch NMI98243 B = 0.000822837 M = 4.07895e-05
+Branch NMI9217 B = 2.61812e-05 M = 2.06385e-06
+Branch NMI99216 B = 0.00120166 M = 3.88035e-05
+Branch NMI0817 B = 5.3431e-06 M = 5.10864e-06
+Branch NMI02144 B = 1.70979e-05 M = 1.04215e-06
+Branch NMI0187 B = 0.000756582 M = 1.86887e-05
+Branch NMI9644 B = 0.000268758 M = 7.39231e-06
+Branch NMI0667 B = 0.000263415 M = 4.08858e-05
+Branch NMI0879 B = 1.01519e-05 M = 4.40601e-06
+Branch NMI03109 B = 0.000331272 M = 1.40446e-05
+Branch NMI99190 B = 1.60293e-06 M = 1.54898e-06
+Branch NMI95134 B = 1.60293e-06 M = 1.54871e-06
+Branch NMI9334 B = 4.4882e-05 M = 3.05868e-06
+Branch NMI9118 B = 0.000125563 M = 8.28626e-06
+Branch NMI985 B = 2.29753e-05 M = 2.05896e-06
+Branch NMI03249 B = 4.80879e-06 M = 4.60059e-06
+Branch NMI9539 B = 5.23623e-05 M = 4.62193e-06
+Branch NMI97329 B = 0.0015137 M = 3.63377e-05
+Branch NMI9547 B = 2.67155e-06 M = 1.55066e-06
+Branch NMI96161 B = 2.67155e-06 M = 2.56638e-06
+Branch NMI04110 B = 6.09113e-05 M = 8.61919e-06
+Branch NMI0314 B = 3.20586e-06 M = 3.07387e-06
+Branch NMI94189 B = 2.13724e-06 M = 2.05815e-06
+Branch NODE_93 B = 0.000704754 M = 2.10847e-05
+Branch NODE_94 B = 4.4882e-05 M = 5.32938e-07
+Branch NODE_95 B = 3.90046e-05 M = 1.04243e-06
+Branch NODE_96 B = 0.000131974 M = 1.81324e-06
+Branch NODE_97 B = 0.00256308 M = 8.67089e-05
+Branch NODE_98 B = 0.00259461 M = 8.25108e-05
+Branch NODE_99 B = 1.5495e-05 M = 1.04156e-06
+Branch NODE_100 B = 0.000290664 M = 1.49189e-05
+Branch NODE_101 B = 0.000611785 M = 1.48743e-05
+Branch NODE_102 B = 0.00127807 M = 5.10048e-05
+Branch NODE_103 B = 5.87741e-06 M = 5.61791e-06
+Branch NODE_106 B = 0.00137104 M = 2.548e-05
+Branch NODE_107 B = 4.59506e-05 M = 6.85683e-06
+Branch NODE_108 B = 0.000704754 M = 1.48199e-05
+Branch NODE_109 B = 0.00127059 M = 2.5331e-05
+Branch NODE_110 B = 2.67155e-06 M = 2.56604e-06
+Branch NODE_112 B = 2.08381e-05 M = 2.76692e-06
+Branch NODE_113 B = 0.000618731 M = 1.96166e-05
+Branch NODE_114 B = 0.000298679 M = 9.38178e-06
+Branch NODE_116 B = 0.000882679 M = 4.12812e-06
+Branch NODE_117 B = 0.000587206 M = 1.04862e-05
+Branch NODE_118 B = 5.55682e-05 M = 3.65976e-06
+Branch NODE_119 B = 0.000527898 M = 1.48911e-05
+Branch NODE_120 B = 0.000109533 M = 3.86951e-06
+Branch NODE_121 B = 0.000272498 M = 1.09743e-05
+Branch NODE_122 B = 0.000126097 M = 2.92904e-06
+Branch NODE_123 B = 0.000151744 M = 1.01314e-05
+Branch NODE_124 B = 0.000128769 M = 5.52321e-06
+Branch NODE_125 B = 3.68674e-05 M = 1.0558e-06
+Branch NODE_126 B = 0.000142126 M = 6.63175e-06
+Branch NODE_127 B = 2.67155e-05 M = 1.04317e-06
+Branch NODE_128 B = 0.000226013 M = 6.40165e-06
+Branch NODE_129 B = 4.96908e-05 M = 2.09739e-06
+Branch NODE_130 B = 0.000223341 M = 3.85421e-06
+Branch NODE_131 B = 6.41172e-05 M = 1.3517e-05
+Branch NODE_132 B = 0.000463781 M = 1.03054e-05
+Branch NODE_135 B = 5.87741e-06 M = 5.6194e-06
+Branch NODE_136 B = 1.06862e-06 M = 1.04054e-06
+Branch NODE_137 B = 0.000530035 M = 1.96256e-05
+Branch NODE_140 B = 3.20586e-06 M = 3.07499e-06
+Branch NODE_141 B = 1.06862e-06 M = 1.04001e-06
+Branch NODE_143 B = 0.00012396 M = 3.69287e-06
+Branch NODE_144 B = 0.000139989 M = 5.1447e-06
+Branch NODE_145 B = 5.93084e-05 M = 1.15036e-06
+Branch NODE_146 B = 7.48033e-06 M = 6.16771e-06
+Branch NODE_147 B = 2.67155e-06 M = 2.56586e-06
+Branch NODE_148 B = 2.67155e-05 M = 5.87208e-07
+Branch NODE_149 B = 3.04556e-05 M = 5.32121e-07
+Branch NODE_150 B = 1.65636e-05 M = 5.31726e-07
+Branch NODE_151 B = 2.67155e-05 M = 5.33491e-07
+Branch NODE_152 B = 0.000551408 M = 1.57937e-05
+Branch NODE_153 B = 3.74017e-06 M = 3.58371e-06
+Branch NODE_156 B = 1.60293e-06 M = 1.54851e-06
+Branch NODE_157 B = 3.74017e-06 M = 3.58279e-06
+Branch NODE_170 B = 4.4882e-05 M = 1.55123e-06
+Branch NODE_172 B = 1.70979e-05 M = 5.3422e-07
+Branch NODE_173 B = 0.000235631 M = 9.96645e-06
+Branch NODE_174 B = 0.0001277 M = 5.51227e-06
+Branch NODE_175 B = 1.06862e-05 M = 2.04123e-06
+Branch NODE_176 B = 8.54895e-06 M = 2.2685e-06
+Branch NODE_177 B = 5.82397e-05 M = 1.52752e-06
+Branch NODE_178 B = 0.000185405 M = 5.22215e-06
+Branch NODE_179 B = 0.000146935 M = 4.39882e-06
+Branch NODE_180 B = 2.03038e-05 M = 2.03172e-06
+Wrote inferred importation status to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/clonalframeml/41clade_2371_92_41ref/41clade_2371_92_41refclonalframeml.out.importation_status.txt
+Wrote processed tree to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/clonalframeml/41clade_2371_92_41ref/41clade_2371_92_41refclonalframeml.out.labelled_tree.newick
+All done in 84.2055 minutes.

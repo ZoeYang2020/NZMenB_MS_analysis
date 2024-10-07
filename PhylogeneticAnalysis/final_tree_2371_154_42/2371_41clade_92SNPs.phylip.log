@@ -1,0 +1,262 @@
+IQ-TREE multicore version 2.0.6 for Linux 64-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    kscprod-bio9 (AVX512, FMA3, 3022 GB RAM)
+Command: /iqtree-2.0.6-Linux/bin/iqtree2 -s /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip -nt 36 -B 4000 -alrt 2000
+Seed:    335594 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 17 16:05:30 2023
+Kernel:  AVX+FMA - 36 threads (64 CPU cores detected)
+
+Reading alignment file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 92 sequences with 54833 columns, 9396 distinct patterns
+33471 parsimony-informative, 21019 singleton sites, 343 constant sites
+          Gap/Ambiguity  Composition  p-value
+   1  NMI9039     0.00%    passed     95.12%
+   2  NMI9118     0.00%    passed     70.78%
+   3  NMI9217     0.00%    passed     97.42%
+   4  NMI92127    0.00%    passed     99.32%
+   5  NMI92148    0.00%    passed     99.19%
+   6  NMI9328     0.00%    passed     96.48%
+   7  NMI9334     0.00%    passed     93.29%
+   8  NMI93107    0.00%    passed     93.18%
+   9  NMI93116    0.00%    passed     99.25%
+  10  NMI93158    0.00%    passed     98.87%
+  11  NMI9455     0.00%    passed     93.12%
+  12  NMI94189    0.00%    passed     99.36%
+  13  NMI94202    0.00%    passed     81.88%
+  14  NMI94167    0.00%    passed     99.11%
+  15  NMI9511     0.00%    passed     91.84%
+  16  NMI9539     0.00%    passed     99.10%
+  17  NMI9547     0.00%    passed     99.72%
+  18  NMI95101    0.00%    passed     99.79%
+  19  NMI95134    0.00%    passed     99.15%
+  20  NMI95150    0.00%    passed     99.34%
+  21  NMI95151    0.00%    passed     99.23%
+  22  NMI95161    0.00%    passed     99.94%
+  23  NMI95166    0.00%    passed     98.96%
+  24  NMI95210    0.00%    passed     99.73%
+  25  NMI95244    0.00%    passed     99.69%
+  26  NMI9644     0.00%    passed     96.71%
+  27  NMI9693     0.00%    passed     98.96%
+  28  NMI96114    0.00%    passed     99.12%
+  29  NMI96161    0.00%    passed     99.24%
+  30  NMI96163    0.00%    passed     99.38%
+  31  NMI96169    0.00%    passed     99.77%
+  32  NMI96303    0.00%    passed     99.16%
+  33  NMI96308    0.00%    passed     53.89%
+  34  NMI96314    0.00%    passed     89.31%
+  35  NMI97122    0.00%    passed     97.75%
+  36  NMI97265    0.00%    passed     97.25%
+  37  NMI97329    0.00%    passed     99.58%
+  38  NMI97361    0.00%    passed     99.58%
+  39  NMI97387    0.00%    passed     99.53%
+  40  NMI97398    0.00%    passed     93.26%
+  41  NMI985      0.00%    passed     97.95%
+  42  NMI9851     0.00%    passed     97.63%
+  43  NMI98243    0.00%    passed     96.33%
+  44  NMI98267    0.00%    passed     82.10%
+  45  NMI9923     0.00%    passed     98.70%
+  46  NMI9988     0.00%    passed     99.84%
+  47  NMI99152    0.00%    passed     99.67%
+  48  NMI99179    0.00%    passed     96.59%
+  49  NMI99190    0.00%    passed     97.54%
+  50  NMI99216    0.00%    passed     97.86%
+  51  NMI99247    0.00%    passed     95.89%
+  52  NMI006      0.00%    passed     99.96%
+  53  NMI0066     0.00%    passed     79.59%
+  54  NMI00154    0.00%    passed     85.49%
+  55  NMI00168    0.00%    passed     71.54%
+  56  NMI00204    0.00%    passed     98.13%
+  57  NMI0173     0.00%    passed     96.94%
+  58  NMI0187     0.00%    passed     98.78%
+  59  NMI0198     0.00%    passed     99.09%
+  60  NMI01168    0.00%    passed     96.22%
+  61  NMI01191    0.00%    passed     99.70%
+  62  NMI01222    0.00%    passed     97.64%
+  63  NMI01281    0.00%    passed     95.78%
+  64  NMI01368    0.00%    passed     76.80%
+  65  NMI02240    0.00%    passed     99.21%
+  66  NMI02144    0.00%    passed     96.26%
+  67  NMI03281    0.00%    passed     98.24%
+  68  NMI03263    0.00%    passed     99.66%
+  69  NMI03249    0.00%    passed     99.71%
+  70  NMI03246    0.00%    passed     99.11%
+  71  NMI03109    0.00%    passed     99.35%
+  72  NMI0395     0.00%    passed     98.49%
+  73  NMI0314     0.00%    passed     99.83%
+  74  NMI04208    0.00%    passed     99.63%
+  75  NMI04193    0.00%    passed     99.81%
+  76  NMI04129    0.00%    passed     99.84%
+  77  NMI04110    0.00%    passed     88.34%
+  78  NMI0472     0.00%    passed     97.45%
+  79  NMI0440     0.00%    passed     96.60%
+  80  NMI0416     0.00%    passed     93.52%
+  81  NMI05106    0.00%    passed     96.11%
+  82  NMI0589     0.00%    passed     84.18%
+  83  NMI0670     0.00%    passed     95.14%
+  84  NMI0667     0.00%    passed     96.50%
+  85  NMI0618     0.00%    passed     98.82%
+  86  NMI067      0.00%    passed     97.24%
+  87  NMI076      0.00%    passed     85.80%
+  88  NMI0879     0.00%    passed     96.92%
+  89  NMI0817     0.00%    passed     98.29%
+  90  NMI0945     0.00%    passed     99.39%
+  91  NMI106      0.00%    passed     91.65%
+  92  NMI1118     0.00%    passed     82.74%
+****  TOTAL       0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.344 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -528908.818
+Optimal log-likelihood: -528908.798
+Rate parameters:  A-C: 0.90894  A-G: 5.32491  A-T: 0.41623  C-G: 0.65379  C-T: 5.39024  G-T: 1.00000
+Base frequencies:  A: 0.220  C: 0.272  G: 0.285  T: 0.223
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 38.723
+Parameters optimization took 1 rounds (0.123 sec)
+Time for fast ML tree search: 1.962 seconds
+
+NOTE: ModelFinder requires 423 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 54833) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         528996.094   189 1058370.188  1058371.502  1060054.565
+  2  GTR+F+I       528996.144   190 1058372.289  1058373.617  1060065.578
+  3  GTR+F+G4      528908.804   190 1058197.608  1058198.937  1059890.897
+  4  GTR+F+I+G4    528908.804   191 1058199.608  1058200.950  1059901.809
+  5  GTR+F+R2      524812.486   191 1050006.972  1050008.314  1051709.173
+  6  GTR+F+R3      524812.503   193 1050011.005  1050012.376  1051731.031
+ 18  SYM+R2        525554.696   188 1051485.392  1051486.693  1053160.857
+ 31  TVM+F+R2      524813.207   190 1050006.415  1050007.743  1051699.704
+ 44  TVMe+R2       525554.972   187 1051483.945  1051485.232  1053150.498
+ 57  TIM3+F+R2     525566.302   189 1051510.604  1051511.918  1053194.981
+ 70  TIM3e+R2      526449.997   186 1053271.995  1053273.268  1054929.635
+ 83  TIM2+F+R2     525505.385   189 1051388.770  1051390.084  1053073.147
+ 96  TIM2e+R2      526274.145   186 1052920.290  1052921.563  1054577.931
+109  TIM+F+R2      524976.121   189 1050330.243  1050331.557  1052014.620
+122  TIMe+R2       525963.603   186 1052299.206  1052300.479  1053956.847
+135  TPM3u+F+R2    525566.987   188 1051509.973  1051511.274  1053185.438
+148  TPM3+F+R2     525566.987   188 1051509.973  1051511.274  1053185.438
+161  TPM2u+F+R2    525506.103   188 1051388.205  1051389.506  1053063.670
+174  TPM2+F+R2     525506.103   188 1051388.205  1051389.506  1053063.670
+187  K3Pu+F+R2     524976.820   188 1050329.641  1050330.941  1052005.106
+200  K3P+R2        525963.928   185 1052297.856  1052299.115  1053946.584
+213  TN+F+R2       525567.821   188 1051511.642  1051512.942  1053187.107
+226  TNe+R2        526493.925   185 1053357.851  1053359.110  1055006.579
+239  HKY+F+R2      525568.509   187 1051511.018  1051512.304  1053177.570
+252  K2P+R2        526494.247   184 1053356.493  1053357.739  1054996.310
+265  F81+F+R2      562443.177   186 1125258.355  1125259.628  1126915.996
+278  JC+R2         562825.058   183 1126016.117  1126017.349  1127647.022
+Akaike Information Criterion:           TVM+F+R2
+Corrected Akaike Information Criterion: TVM+F+R2
+Bayesian Information Criterion:         TVM+F+R2
+Best-fit model: TVM+F+R2 chosen according to BIC
+
+All model information printed to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.model.gz
+CPU time for ModelFinder: 531.488 seconds (0h:8m:51s)
+Wall-clock time for ModelFinder: 15.767 seconds (0h:0m:15s)
+Generating 4000 samples for ultrafast bootstrap (seed: 335594)...
+
+NOTE: 199 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -524813.207
+Optimal log-likelihood: -524813.207
+Rate parameters:  A-C: 0.90487  A-G: 5.44884  A-T: 0.41015  C-G: 0.64797  C-T: 5.44884  G-T: 1.00000
+Base frequencies:  A: 0.220  C: 0.272  G: 0.285  T: 0.223
+Site proportion and rates:  (0.984,0.902) (0.016,7.209)
+Parameters optimization took 1 rounds (0.103 sec)
+Computing ML distances based on estimated model parameters... 1.880 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -525881.274
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 39.148 second
+Computing log-likelihood of 98 initial trees ... 3.507 seconds
+Current best score: -524527.762
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -524434.648
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -524393.836
+Iteration 10 / LogL: -524561.231 / Time: 0h:0m:55s
+Iteration 20 / LogL: -524604.912 / Time: 0h:1m:3s
+Finish initializing candidate tree set (15)
+Current best tree score: -524393.836 / CPU time: 60.942
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -524383.886
+Iteration 30 / LogL: -524700.222 / Time: 0h:1m:12s (0h:3m:59s left)
+Iteration 40 / LogL: -528038.691 / Time: 0h:1m:20s (0h:2m:57s left)
+Iteration 50 / LogL: -525807.559 / Time: 0h:1m:28s (0h:2m:17s left)
+Log-likelihood cutoff on original alignment: -524544.737
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -524383.865
+Iteration 60 / LogL: -527586.170 / Time: 0h:1m:38s (0h:1m:50s left)
+Iteration 70 / LogL: -524504.976 / Time: 0h:1m:46s (0h:1m:26s left)
+Iteration 80 / LogL: -524474.729 / Time: 0h:1m:55s (0h:1m:7s left)
+Iteration 90 / LogL: -524475.569 / Time: 0h:2m:4s (0h:0m:50s left)
+Iteration 100 / LogL: -524383.872 / Time: 0h:2m:11s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -524514.674
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -524384.149 / Time: 0h:2m:20s (0h:1m:55s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -524383.852
+Iteration 120 / LogL: -524383.852 / Time: 0h:2m:28s (0h:1m:39s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -524383.826
+TREE SEARCH COMPLETED AFTER 127 ITERATIONS / Time: 0h:2m:34s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -524383.826
+Optimal log-likelihood: -524383.826
+Rate parameters:  A-C: 0.91406  A-G: 5.49646  A-T: 0.41277  C-G: 0.65167  C-T: 5.49646  G-T: 1.00000
+Base frequencies:  A: 0.220  C: 0.272  G: 0.285  T: 0.223
+Site proportion and rates:  (0.985,0.900) (0.015,7.385)
+Parameters optimization took 1 rounds (0.087 sec)
+BEST SCORE FOUND : -524383.826
+
+Testing tree branches by SH-like aLRT with 2000 replicates...
+4.345 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.splits.nex
+Total tree length: 1.794
+
+Total number of iterations: 127
+CPU time used for tree search: 4667.823 sec (1h:17m:47s)
+Wall-clock time used for tree search: 152.293 sec (0h:2m:32s)
+Total CPU time used: 4849.755 sec (1h:20m:49s)
+Total wall-clock time used: 159.933 sec (0h:2m:39s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.splits.nex...
+92 taxa and 326 splits.
+Consensus tree written to /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.contree
+Reading input trees file /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.contree
+Log-likelihood of consensus tree: -524385.490
+
+Analysis results written to: 
+  IQ-TREE report:                /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.iqtree
+  Maximum-likelihood tree:       /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.treefile
+  Likelihood distances:          /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.splits.nex
+  Consensus tree:                /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.contree
+  Screen log file:               /home/zyang/NGS/active/IPL/MENINGO/analysis/HRC/zoe/AllNZMemB_2021/trees/2371_41clade_92SNPs.phylip.log
+
+Date and Time: Tue Jan 17 16:08:26 2023
